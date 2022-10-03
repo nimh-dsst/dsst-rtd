@@ -7,7 +7,7 @@ plugins:
 
 docs_dir: docs
 
-pages:
+nav:
   - About: index.md
   - Curations:
     - 17-M-0181 - Healthy Volunteers Protocol: curations/17-M-0181.md
