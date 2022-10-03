@@ -1,0 +1,13 @@
+site_name: NIMH Data Science & Sharing Team Curations
+
+theme: material
+
+plugins:
+  - search
+
+docs_dir: docs
+
+pages:
+  - About: index.md
+  - Curations:
+    - 17-M-0181 - Healthy Volunteers Protocol: curations/17-M-0181.md
