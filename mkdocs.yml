@@ -11,4 +11,4 @@ nav:
   - About: index.md
   - Curations:
     - 17-M-0181 - Healthy Volunteers Protocol: curations/17-M-0181.md
-    - OpenNeuro NIH C11 Leucine Studies: curations/ds004291.md
+    - OpenNeuro NIH C11 Leucine Studies: curations/c11-leucine.md
