@@ -13,7 +13,8 @@ nav:
     - 06-M-0102 - Autism Subtypes Study:
       - (DRAFT) dataset_description.json: curations/06-M-0102/dataset_description.md
       - (DRAFT) README.md: curations/06-M-0102/README.md
-    - 17-M-0181 - Healthy Volunteers Protocol: curations/17-M-0181/curation.md
+    - 17-M-0181 - Healthy Volunteers Protocol:
+      - Curation Notes: curations/17-M-0181/curation.md
     - OpenNeuro NIH C11 Leucine Studies: curations/c11-leucine/README.md
   - Guides:
       - NDA Tools Usage: tools/nda-downloadcmd.md
