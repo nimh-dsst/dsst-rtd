@@ -8,6 +8,7 @@
   "Authors": [
     "Susan E Swedo",
     "Audrey Thurm",
+    "Cristan Farmer",
     "Jay N Giedd",
     "Carlo Pierpaoli",
     "Arshitha Basavaraj",
