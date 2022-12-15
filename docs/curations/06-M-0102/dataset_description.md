@@ -3,16 +3,12 @@
 ```json
 {
   "Name": "The Clinical and Immunological Investigations of Subtypes of Autism",
-  "BIDSVersion": "1.8.0",
+  "BIDSVersion": "1.7.0",
   "DatasetType": "raw",
   "Authors": [
     "Susan E Swedo",
-    "Audrey Thurm",
-    "Cristan Farmer",
     "Jay N Giedd",
     "Carlo Pierpaoli",
-    "Arshitha Basavaraj",
-    "Eric Earl",
     "Adam Thomas"
   ],
   "Acknowledgements": "These data were collected through the generous donation of time by the children and their families and the contributions of many NIH research assistants, post-doctoral fellows, and staff members, as well as extramural collaborators.",
