@@ -3,7 +3,7 @@
 ```json
 {
   "Name": "The Clinical and Immunological Investigations of Subtypes of Autism",
-  "BIDSVersion": "1.8.0",
+  "BIDSVersion": "1.7.0",
   "DatasetType": "raw",
   "Authors": [
     "Susan E Swedo",
