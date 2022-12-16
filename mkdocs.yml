@@ -18,5 +18,5 @@ nav:
     - OpenNeuro NIH C11 Leucine Studies:
       - (DRAFT) README.md: curations/c11-leucine/README.md
   - Guides:
-    - DataLad Subdatasets Usage: guides/datalad/subdatasets.md
+    - DataLad New User FAQ: guides/datalad/faq.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
