@@ -1,9 +1,9 @@
-# (DRAFT) BIDS `dataset_description.json`
+# BIDS `dataset_description.json`
 
 ```json
 {
   "Name": "The Clinical and Immunological Investigations of Subtypes of Autism",
-  "BIDSVersion": "1.7.0",
+  "BIDSVersion": "1.8.0",
   "DatasetType": "raw",
   "Authors": [
     "Susan E Swedo",
@@ -11,6 +11,11 @@
     "Cristan Farmer",
     "Jay N Giedd",
     "Carlo Pierpaoli",
+    "Armin Raznahan",
+    "Rhoshel Lenroot",
+    "Marta Gozzi",
+    "Sarah Spence",
+    "Precilla D’Souza",
     "Arshitha Basavaraj",
     "Eric Earl",
     "Adam Thomas"
@@ -84,4 +89,5 @@
     }
   ]
 }
+
 ```
