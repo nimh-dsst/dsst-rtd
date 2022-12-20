@@ -11,7 +11,7 @@ nav:
   - About: index.md
   - Curations:
     - 06-M-0102 - Autism Subtypes Study:
-      - (DRAFT) BIDS dataset_description.json: curations/06-M-0102/dataset_description.md
+      - BIDS dataset_description.json: curations/06-M-0102/dataset_description.md
       - (DRAFT) BIDS README.md: curations/06-M-0102/README.md
     - 17-M-0181 - Healthy Volunteers Protocol:
       - Curation Notes: curations/17-M-0181/curation.md
