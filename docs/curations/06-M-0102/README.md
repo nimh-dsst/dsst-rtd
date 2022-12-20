@@ -8,7 +8,7 @@ The purpose of this study was to learn more about autism and its subtypes.
 The study used comprehensive and longitudinal medical assessments, and behavioral testing to find
 subgroups of children with autism with profiles that comprise distinct biological/behavioral phenotypes. Data collection
 started on February 22, 2006, and was completed on March 15, 2017. For more information regarding the study design,
-please visit https://clinicaltrials.gov/ct2/show/NCT00298246.
+please visit [https://clinicaltrials.gov/ct2/show/NCT00298246](https://clinicaltrials.gov/ct2/show/NCT00298246).
 
 ## Neuroimaging
 
@@ -33,7 +33,7 @@ three‐dimensional (3D) spoiled gradient recalled echo sequence with the follow
 
 Clinical assessments' data and anatomical imaging data can be accessed
 as [collection 2368](https://nda.nih.gov/edit_collection.html?id=2368) on [NIMH Data Archive](https://nda.nih.gov). To
-request access please visit https://nda.nih.gov/nda/access-data-info.html.
+request access please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html).
 
 Anatomical imaging data is shared in a minimally processed, raw format. However, in order to facilitate data
 analysis, the MRI data are converted to NIfTI and transformed into BIDS format using [Dcm2Bids version
@@ -69,4 +69,4 @@ found [here](https://github.com/nih-fmrif/dsst-defacing-pipeline).
 **Code availability**
 
 Scripts used for DICOM to BIDS format conversion and de-identification of anatomical MRI scans
-are available on the git repository at https://github.com/nih-fmrif/autism-subtypes.
+are available on the git repository at [https://github.com/nih-fmrif/autism-subtypes](https://github.com/nih-fmrif/autism-subtypes).
