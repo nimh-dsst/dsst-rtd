@@ -1,3 +1,6 @@
+# `dataset_description.json`
+
+```json
 {
     "Name": "The NIMH Healthy Research Volunteer Dataset",
     "BIDSVersion": "1.6.0",
@@ -45,3 +48,4 @@
     ],
     "DatasetDOI": "doi:10.18112/openneuro.ds004215.v1.0.1"
 }
+```
