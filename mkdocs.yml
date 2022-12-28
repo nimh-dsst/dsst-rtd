@@ -14,6 +14,8 @@ nav:
       - BIDS dataset_description.json: curations/06-M-0102/dataset_description.md
       - (DRAFT) BIDS README.md: curations/06-M-0102/README.md
     - 17-M-0181 - Healthy Volunteers Protocol:
+      - BIDS README.md: curations/17-M-0181/README.md
+      - BIDS dataset_description.json: curations/17-M-0181/dataset_description.md
       - Curation Notes: curations/17-M-0181/curation.md
     - OpenNeuro NIH C11 Leucine Studies:
       - (DRAFT) README.md: curations/c11-leucine/README.md
