@@ -1,4 +1,4 @@
-# (DRAFT) The Clinical and Immunological Investigations of Subtypes of Autism
+# The Clinical and Immunological Investigations of Subtypes of Autism
 
 [Autism spectrum disorder (ASD)](https://medlineplus.gov/genetics/condition/autism-spectrum-disorder) is a common
 neurodevelopmental disorder that is behaviorally defined, emerges early in life, encompasses a heterogeneous range of
