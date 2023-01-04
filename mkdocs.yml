@@ -13,7 +13,9 @@ nav:
     - 06-M-0102 - Autism Subtypes Study:
       - BIDS CHANGES: curations/06-M-0102/CHANGES.md
       - BIDS dataset_description.json: curations/06-M-0102/dataset_description.md
-      - (DRAFT) BIDS README.md: curations/06-M-0102/README.md
+      - BIDS participants.json: curations/06-M-0102/participants.md
+      - BIDS README: curations/06-M-0102/README.md
+      - BIDS scans.json: curations/06-M-0102/scans.md
     - 17-M-0181 - Healthy Volunteers Protocol:
       - BIDS README.md: curations/17-M-0181/README.md
       - BIDS dataset_description.json: curations/17-M-0181/dataset_description.md
