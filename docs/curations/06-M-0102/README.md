@@ -29,6 +29,14 @@ three‐dimensional (3D) spoiled gradient recalled echo sequence with the follow
 | Number of excitations | 1         |
 | Field of view         | 24 cm     |
 
+## Imaging data download
+
+To unpack these data and satisfy the BIDS validator:
+
+1. Download the 7 files labeled as "Results" here or download the ZIP file and unpack it.
+2. Place those 7 files at the root of the BIDS folder structure.
+3. Download the defaced MRI data and place the sub-* folders into the same folder structure's root level.
+
 ## Data Preparation Notes
 
 Clinical assessments' data and anatomical imaging data can be accessed
