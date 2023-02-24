@@ -1,4 +1,4 @@
-# BIDS `dataset_description.json`
+# `dataset_description.json`
 
 ```json
 {

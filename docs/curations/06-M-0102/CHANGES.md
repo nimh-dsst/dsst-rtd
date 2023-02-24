@@ -1,4 +1,4 @@
-# BIDS `CHANGES`
+# `CHANGES`
 
 ```text
 Revision history for BIDS dataset of NDA Collection 2368/NDA Study 1887

@@ -1,4 +1,4 @@
-# BIDS `participants.json`
+# `participants.json`
 
 ```json
 {

@@ -29,13 +29,13 @@ three‐dimensional (3D) spoiled gradient recalled echo sequence with the follow
 | Number of excitations | 1         |
 | Field of view         | 24 cm     |
 
-## Imaging data download
+## Data download and BIDS organize
 
-To unpack these data and satisfy the BIDS validator:
+To download these data and organize them to satisfy the BIDS validator:
 
-1. Download the 7 files labeled as "Results" here or download the ZIP file and unpack it.
-2. Place those 7 files at the root of the BIDS folder structure.
-3. Download the defaced MRI data and place the sub-* folders into the same folder structure's root level.
+1. Download the complete package from [NDA Study 1887](https://nda.nih.gov/study.html?id=1887) (less than 5GB in disk size as of February 2023).
+2. Go to [the GitHub code repository](https://github.com/nih-fmrif/nda-study-1887) and follow the `README.md` to unpack your downloaded data into BIDS format.
+3. Run [the BIDS validator](https://github.com/bids-standard/bids-validator) on your data to ensure that it is BIDS compliant.
 
 ## Data Preparation Notes
 

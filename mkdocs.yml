@@ -14,14 +14,19 @@ nav:
       - BIDS CHANGES: curations/06-M-0102/CHANGES.md
       - BIDS dataset_description.json: curations/06-M-0102/dataset_description.md
       - BIDS participants.json: curations/06-M-0102/participants.md
-      - BIDS README: curations/06-M-0102/README.md
+      - BIDS README.md: curations/06-M-0102/README.md
       - BIDS scans.json: curations/06-M-0102/scans.md
     - 17-M-0181 - Healthy Volunteers Protocol:
-      - BIDS README.md: curations/17-M-0181/README.md
       - BIDS dataset_description.json: curations/17-M-0181/dataset_description.md
-      - Curation Notes: curations/17-M-0181/curation.md
+      - (draft) BIDS README.md: curations/17-M-0181/README.md
+      - Internal Curation Notes: curations/17-M-0181/curation.md
     - OpenNeuro NIH C11 Leucine Studies:
-      - (DRAFT) README.md: curations/c11-leucine/README.md
+      - (draft) BIDS "raw" dataset_description.json: curations/c11-leucine/raw_dataset_description.md
+      - (draft) BIDS "FreeSurfer derivatives" dataset_description.json: curations/c11-leucine/freesurfer_dataset_description.md
+      - (draft) BIDS "rCPS derivatives" dataset_description.json: curations/c11-leucine/rcps_dataset_description.md
+      - (draft) BIDS "output derivatives" dataset_description.json: curations/c11-leucine/output_dataset_description.md
+      - (draft) BIDS "PETprep derivatives" dataset_description.json: curations/c11-leucine/petprep_dataset_description.md
+      - (draft) BIDS README.md: curations/c11-leucine/README.md
   - Guides:
     - DataLad New User FAQ: guides/datalad/faq.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
