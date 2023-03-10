@@ -2,38 +2,39 @@
 
 ```json
 {
-  "Name": "NIH PET measurements of rates of cerebral protein synthesis (rCPS) in humans",
+  "Name": "",
   "BIDSVersion": "1.8.0",
-  "DatasetType": "raw",
+  "DatasetType": "derivative",
   "License": "CC0",
   "Authors": [
+    "Martin Nørgaard",
     "Eric Earl",
     "Anthony Galassi",
     "Adam Thomas"
   ],
-  "Acknowledgements": ".",
-  "HowToAcknowledge": ".",
+  "Acknowledgements": "",
+  "HowToAcknowledge": "Cite ",
   "Funding": [
     ""
   ],
   "EthicsApprovals": [
-    "."
+    ""
   ],
   "ReferencesAndLinks": [
-    "."
+    ""
   ],
   "GeneratedBy": [
     {
-      "Name": "MATLAB",
-      "Version": "???",
-      "Description": "???",
-      "CodeURL": "???"
+      "Name": "",
+      "Version": "",
+      "Description": "",
+      "CodeURL": ""
     },
     {
-      "Name": "MiDeFace",
-      "Version": "???",
-      "Description": "???",
-      "CodeURL": "???"
+      "Name": "",
+      "Version": "",
+      "Description": "",
+      "CodeURL": ""
     }
   ]
 }
