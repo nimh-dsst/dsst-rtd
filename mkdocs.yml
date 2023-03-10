@@ -11,30 +11,30 @@ nav:
   - About: index.md
   - Curations:
     - 06-M-0102 - Autism Subtypes Study:
-      - BIDS CHANGES: curations/06-M-0102/CHANGES.md
-      - BIDS dataset_description.json: curations/06-M-0102/dataset_description.md
-      - BIDS participants.json: curations/06-M-0102/participants.md
-      - BIDS README.md: curations/06-M-0102/README.md
-      - BIDS scans.json: curations/06-M-0102/scans.md
+      - CHANGES: curations/06-M-0102/CHANGES.md
+      - dataset_description.json: curations/06-M-0102/dataset_description.md
+      - participants.json: curations/06-M-0102/participants.md
+      - README.md: curations/06-M-0102/README.md
+      - scans.json: curations/06-M-0102/scans.md
     - 17-M-0181 - Healthy Volunteers Protocol:
-      - BIDS dataset_description.json: curations/17-M-0181/dataset_description.md
-      - (draft) BIDS README.md: curations/17-M-0181/README.md
+      - dataset_description.json: curations/17-M-0181/dataset_description.md
+      - README.md: curations/17-M-0181/README.md
       - Internal Curation Notes: curations/17-M-0181/curation.md
     - Measurement of rates of cerebral protein synthesis (rCPS) in human subjects:
       - rCPS in subjects with fragile X syndrome:
-        - BIDS README.md: curations/c11-leucine/fragile_x/README.md
+        - README.md: curations/c11-leucine/fragile_x/README.md
       - Effects of propofol anesthesia on rCPS:
-        - BIDS README.md: curations/c11-leucine/propofol_anesthesia/README.md
+        - README.md: curations/c11-leucine/propofol_anesthesia/README.md
       - rCPS and memory formation during sleep:
-        - BIDS README.md: curations/c11-leucine/sleep_memory/README.md
+        - README.md: curations/c11-leucine/sleep_memory/README.md
       - rCPS in stages of sleep:
-        - BIDS README.md: curations/c11-leucine/sleep_stages/README.md
-      - (draft) BIDS "raw" dataset_description.json: curations/c11-leucine/raw_dataset_description.md
-      - (draft) BIDS "FreeSurfer derivatives" dataset_description.json: curations/c11-leucine/freesurfer_dataset_description.md
-      - (draft) BIDS "rCPS derivatives" dataset_description.json: curations/c11-leucine/rcps_dataset_description.md
-      - (draft) BIDS "output derivatives" dataset_description.json: curations/c11-leucine/output_dataset_description.md
-      - (draft) BIDS "PETprep derivatives" dataset_description.json: curations/c11-leucine/petprep_dataset_description.md
-      - (draft) BIDS README.md: curations/c11-leucine/README.md
+        - README.md: curations/c11-leucine/sleep_stages/README.md
+      - raw dataset_description.json: curations/c11-leucine/raw_dataset_description.md
+      - FreeSurfer derivatives dataset_description.json: curations/c11-leucine/freesurfer_dataset_description.md
+      - rCPS derivatives dataset_description.json: curations/c11-leucine/rcps_dataset_description.md
+      - output derivatives dataset_description.json: curations/c11-leucine/output_dataset_description.md
+      - PETprep derivatives dataset_description.json: curations/c11-leucine/petprep_dataset_description.md
+      - README.md: curations/c11-leucine/README.md
   - Guides:
     - DataLad New User FAQ: guides/datalad/faq.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
