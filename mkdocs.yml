@@ -37,7 +37,6 @@ nav:
       - rCPS derivatives dataset_description.json: curations/c11-leucine/rcps_dataset_description.md
       - output derivatives dataset_description.json: curations/c11-leucine/output_dataset_description.md
       - PETprep derivatives dataset_description.json: curations/c11-leucine/petprep_dataset_description.md
-      - README.md: curations/c11-leucine/README.md
   - Guides:
     - DataLad New User FAQ: guides/datalad/faq.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
