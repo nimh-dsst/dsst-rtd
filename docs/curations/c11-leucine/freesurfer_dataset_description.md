@@ -12,29 +12,12 @@
     "Anthony Galassi",
     "Adam Thomas"
   ],
-  "Acknowledgements": "",
-  "HowToAcknowledge": "Cite ",
-  "Funding": [
-    ""
-  ],
-  "EthicsApprovals": [
-    ""
-  ],
-  "ReferencesAndLinks": [
-    ""
-  ],
   "GeneratedBy": [
     {
-      "Name": "",
-      "Version": "",
-      "Description": "",
-      "CodeURL": ""
-    },
-    {
-      "Name": "",
-      "Version": "",
-      "Description": "",
-      "CodeURL": ""
+      "Name": "FreeSurfer",
+      "Version": "7.3.2",
+      "Description": "FreeSurfer's recon-all was run.",
+      "CodeURL": "https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads"
     }
   ]
 }

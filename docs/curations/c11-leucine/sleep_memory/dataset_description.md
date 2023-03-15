@@ -57,7 +57,7 @@
     },
     {
       "Name": "FreeSurfer's MiDeFace",
-      "Version": "",
+      "Version": "7.3.2",
       "Description": "A tool for defacing MRI images in a way that is both minimally invasive and achieves goals of privacy",
       "CodeURL": "https://surfer.nmr.mgh.harvard.edu/fswiki/MiDeFace"
     }
