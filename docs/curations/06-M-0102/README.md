@@ -44,6 +44,7 @@ three‐dimensional (3D) spoiled gradient recalled echo sequence with the follow
 The Anatomical imaging data have been shared on [NIMH Data Archive (NDA)](https://nda.nih.gov) as [Study 1887](https://nda.nih.gov/study.html?tab=general&id=1887). To request access please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html).
 
 To download data from NDA, the user would have to:
+
 1. Create a data package.
 2. Use NDA's command-line tool or Download Manager to download the data package. 
 
