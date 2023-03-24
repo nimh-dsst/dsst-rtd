@@ -33,10 +33,10 @@ nav:
       - rCPS in stages of sleep:
         - README.md: curations/c11-leucine/sleep_stages/README.md
         - dataset_description.json: curations/c11-leucine/sleep_stages/dataset_description.md
-      - FreeSurfer derivatives dataset_description.json: curations/c11-leucine/freesurfer_dataset_description.md
-      - rCPS derivatives dataset_description.json: curations/c11-leucine/rcps_dataset_description.md
-      - output derivatives dataset_description.json: curations/c11-leucine/output_dataset_description.md
-      - PETprep derivatives dataset_description.json: curations/c11-leucine/petprep_dataset_description.md
+      - Derivatives dataset_description.json files:
+        - FreeSurfer: curations/c11-leucine/freesurfer_dataset_description.md
+        - Provided rCPS: curations/c11-leucine/rcps_dataset_description.md
+        - rcps-modified-petprep: curations/c11-leucine/petprep_dataset_description.md
   - Guides:
     - DataLad New User FAQ: guides/datalad/faq.md
     - NDA Tools Usage: guides/nda/downloadcmd.md

@@ -1,40 +1,16 @@
-# `/derivatives/PETPrep1/dataset_description.json`
+# `/derivatives/rcps-modified-petprep/dataset_description.json`
 
 ```json
 {
-  "Name": "",
+  "Name": "Derivatives from modified version of PETPrep pipeline",
   "BIDSVersion": "1.8.0",
   "DatasetType": "derivative",
-  "License": "CC0",
-  "Authors": [
-    "Martin Nørgaard",
-    "Eric Earl",
-    "Anthony Galassi",
-    "Adam Thomas"
-  ],
-  "Acknowledgements": "",
-  "HowToAcknowledge": "Cite ",
-  "Funding": [
-    ""
-  ],
-  "EthicsApprovals": [
-    ""
-  ],
-  "ReferencesAndLinks": [
-    ""
-  ],
   "GeneratedBy": [
     {
-      "Name": "",
-      "Version": "",
-      "Description": "",
-      "CodeURL": ""
-    },
-    {
-      "Name": "",
-      "Version": "",
-      "Description": "",
-      "CodeURL": ""
+      "Name": "rcps-modified-petprep",
+      "Version": "1.0.0",
+      "Description": "Modified version of PETPrep pipeline for already-provided rCPS inputs",
+      "CodeURL": "https://doi.org/10.5281/zenodo.7768340"
     }
   ]
 }

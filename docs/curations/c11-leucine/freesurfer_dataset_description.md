@@ -2,16 +2,9 @@
 
 ```json
 {
-  "Name": "",
+  "Name": "FreeSurfer derivatives",
   "BIDSVersion": "1.8.0",
   "DatasetType": "derivative",
-  "License": "CC0",
-  "Authors": [
-    "Martin Nørgaard",
-    "Eric Earl",
-    "Anthony Galassi",
-    "Adam Thomas"
-  ],
   "GeneratedBy": [
     {
       "Name": "FreeSurfer",

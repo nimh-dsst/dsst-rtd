@@ -2,39 +2,13 @@
 
 ```json
 {
-  "Name": "",
+  "Name": "Provided rates of cerebral protein synthesis derivatives from input PET data",
   "BIDSVersion": "1.8.0",
   "DatasetType": "derivative",
-  "License": "CC0",
-  "Authors": [
-    "Martin Nørgaard",
-    "Eric Earl",
-    "Anthony Galassi",
-    "Adam Thomas"
-  ],
-  "Acknowledgements": "",
-  "HowToAcknowledge": "Cite ",
-  "Funding": [
-    ""
-  ],
-  "EthicsApprovals": [
-    ""
-  ],
-  "ReferencesAndLinks": [
-    ""
-  ],
   "GeneratedBy": [
     {
-      "Name": "",
-      "Version": "",
-      "Description": "",
-      "CodeURL": ""
-    },
-    {
-      "Name": "",
-      "Version": "",
-      "Description": "",
-      "CodeURL": ""
+      "Name": "Primary data analysis",
+      "Description": "See references in README for details."
     }
   ]
 }
