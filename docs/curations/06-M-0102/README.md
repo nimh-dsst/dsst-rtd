@@ -44,6 +44,7 @@ three‐dimensional (3D) spoiled gradient recalled echo sequence with the follow
 The Anatomical imaging data have been shared on [NIMH Data Archive (NDA)](https://nda.nih.gov) as [Study 1887](https://nda.nih.gov/study.html?tab=general&id=1887). To request access please visit [https://nda.nih.gov/nda/access-data-info.html](https://nda.nih.gov/nda/access-data-info.html).
 
 To download data from NDA, the user would have to:
+
 1. Create a data package.
 2. Use NDA's command-line tool or Download Manager to download the data package. 
 
@@ -88,9 +89,39 @@ The NDA Study 1887 data package is 4 GB in size. Here's a condensed version of t
 
 Please find instructions to download a package through NDA Download Manager [here](https://nda.nih.gov/tools/nda-tools.html#download-manager-beta).
 
+Here's a snapshot of the partial directory after the data package has been downloaded:
+```bash
+study1887
+├── README.pdf
+├── dataset_collection.txt
+├── datastructure_manifest.txt
+├── fmriresults01
+│   ├── manifests
+│   ├── sub-NDARXXXXXXXX
+...
+│   ├── sub-NDARXXXXXXXX
+│   └── sub-NDARXXXXXXXX
+├── fmriresults01.txt
+├── md5_values.txt
+├── package_info.txt
+├── results
+│   ├── CHANGES
+│   ├── README.md
+│   ├── bidsify_1887.py
+│   ├── dataset_description.json
+│   ├── participants.json
+│   ├── participants.tsv
+│   ├── scans.json
+│   └── scans.tsv
+└── study_1887.pdf
+
+```
+
 ## NDA Data Package to BIDS Directory 
 
-To be BIDS standard compliant, we provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a BIDS format dataset. Here's an example to `copy` over the NIfTI and associated metadata files into a new directory. 
+To be BIDS standard compliant, we provide a script `bidsify_1887.py` to convert the data downloaded through NDA into a BIDS format dataset. The script is distributed with the NDA Study 1887 data package and is available through this study repository as well.
+
+Here's an example to `copy` over the NIfTI and associated metadata files into a new directory. 
 
 `python3 bidsify_1887 -i nda-study-1887 -b bids-study-1887 -m copy`
 
@@ -129,6 +160,8 @@ have been shared as supporting documentation:
 | `dataset_description.json` | A JSON file describing the dataset.                                                                    |
 | `README`                   | A text file describing the dataset in greater detail.                                                  |
 | `CHANGES`                  | A text file with version history of the dataset (describing changes, updates and corrections).         |
+| `participants.tsv`         | A tab separated tabular file with additional information like age, sex, and group of each participant. |
+| `participants.json`        | A JSON formatted data dictionary describing fields in `participants.tsv`.        |
 | `scans.tsv`                | A tab separated tabular file indicating the method used to deface every scan available in the dataset. |
 | `scans.json`               | A JSON formatted data dictionary describing fields in `scans.tsv`.                                     |
 
@@ -148,7 +181,7 @@ using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes
 rest were programmatically corrected to ensure defacing quality. More details on the defacing workflow used can be
 found [here](https://github.com/nih-fmrif/dsst-defacing-pipeline).
 
-**Code availability**
+## Code availability
 
 Scripts used for DICOM to BIDS format conversion and de-identification of anatomical MRI scans
-are available on the git repository at [https://github.com/nih-fmrif/nda-study-1887](https://github.com/nih-fmrif/nda-study-1887).
+are available on the git repository at [https://github.com/nimh-dsst/nda-study-1887](https://github.com/nimh-dsst/nda-study-1887).
