@@ -9,34 +9,44 @@ docs_dir: docs
 
 nav:
   - About: index.md
-  - Curations:
+
+  - IRP Data Release Curations:
+
     - 06-M-0102 - Autism Subtypes Study:
       - CHANGES: curations/06-M-0102/CHANGES.md
       - dataset_description.json: curations/06-M-0102/dataset_description.md
       - participants.json: curations/06-M-0102/participants.md
       - README.md: curations/06-M-0102/README.md
       - scans.json: curations/06-M-0102/scans.md
+
     - 17-M-0181 - Healthy Volunteers Protocol:
       - dataset_description.json: curations/17-M-0181/dataset_description.md
       - README.md: curations/17-M-0181/README.md
       - Internal Curation Notes: curations/17-M-0181/curation.md
-    - Measurement of rates of cerebral protein synthesis (rCPS) in human subjects:
+
+    - Measurement of rCPS in human subjects:
+
       - rCPS in subjects with fragile X syndrome:
         - README.md: curations/c11-leucine/fragile_x/README.md
         - dataset_description.json: curations/c11-leucine/fragile_x/dataset_description.md
+
       - Effects of propofol anesthesia on rCPS:
         - README.md: curations/c11-leucine/propofol_anesthesia/README.md
         - dataset_description.json: curations/c11-leucine/propofol_anesthesia/dataset_description.md
+
       - rCPS and memory formation during sleep:
         - README.md: curations/c11-leucine/sleep_memory/README.md
         - dataset_description.json: curations/c11-leucine/sleep_memory/dataset_description.md
+
       - rCPS in stages of sleep:
         - README.md: curations/c11-leucine/sleep_stages/README.md
         - dataset_description.json: curations/c11-leucine/sleep_stages/dataset_description.md
+
       - Derivatives dataset_description.json files:
         - FreeSurfer: curations/c11-leucine/freesurfer_dataset_description.md
         - Provided rCPS: curations/c11-leucine/rcps_dataset_description.md
         - rcps-modified-petprep: curations/c11-leucine/petprep_dataset_description.md
+
   - Guides:
     - DataLad New User FAQ: guides/datalad/faq.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
