@@ -1,6 +1,6 @@
 # Rates of cerebral protein synthesis (rCPS) and memory formation during sleep
 
-For dataset questions or feedback, please [email the NIMH Data Science & Sharing Team](mailto:nimhdsst@mail.nih.gov).
+For dataset questions or feedback, please email the NIMH Data Science & Sharing Team at [nimhdsst@mail.nih.gov](mailto:nimhdsst@mail.nih.gov).
 
 ## Introduction
 
