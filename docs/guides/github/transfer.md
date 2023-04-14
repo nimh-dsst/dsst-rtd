@@ -4,7 +4,7 @@ This is a quick guide on transferring ownership of a GitHub repository. For this
 
 ## Step 1: Go to the existing repository you want to transfer ownership
 
-Go to an existing repository on GitHub.
+Go to the existing repository on GitHub from which you'd like to transfer ownership somewhere else.
 
 ![Top of the existent repository's homepage](images/repo_top.jpg)
 
