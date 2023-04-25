@@ -1,18 +1,10 @@
 # Effects of propofol anesthesia on rates of cerebral protein synthesis (rCPS)
 
-For dataset questions or feedback, please email the NIMH Data Science & Sharing Team at [nimhdsst@mail.nih.gov](mailto:nimhdsst@mail.nih.gov).
-
 ## Introduction
 
+In this dataset all subjects (n=10) are males between the ages of 20 and 24 years (M=22.1, SD=1.6). See the `participants.tsv` file at the root of the dataset for full participant information. See the reference in the [**Please cite**](#please-cite) section below for more information about this dataset.
+
 Included in this dataset are L-[1-11C]leucine 4D Positron Emission Tomography (PET) images, co-registered defaced 3D anatomical Magnetic Resonanace Imaging (MRI) T1-weighted images, blood sampling data, FreeSurfer derivative files, and FreeSurfer "fsaverage" group-averaged rCPS left and right hemisphere surface statistical maps. All data were collected on the NIH campus in Bethesda, Maryland, USA. For descriptions of data acquisition and processing methods, please see the methods sections of the published papers listed in the `dataset_description.json` file.
-
-## Study Overview
-
-The purpose of this study<sup>1</sup> was to determine the effects of 2,3-diisopropylphenol (propofol) anesthesia on rCPS. We studied 10 healthy young male volunteers who each underwent two L-[1-11C]leucine PET studies: awake and anesthetized with propofol. Our measurements showed no significant effects of propofol anesthesia on values of rCPS in all examined regions.
-
-### Please cite the following paper when using this dataset
-
-1. *Bishu, S., Schmidt, K. C., Burlin, T. V., Charming, M. A., Horowitz, L., Huang, T., Liu, Z., Qin, M., Vuong, B.-K., Unterman, A. J., Xia, Z., Zametkin, A., Herscovitch, P., Quezado, Z., & Smith, C. B. (2009). Propofol Anesthesia Does Not Alter Regional Rates of Cerebral Protein Synthesis Measured with l -[1- 11 C]Leucine and PET in Healthy Male Subjects. Journal of Cerebral Blood Flow & Metabolism, 29(5), 1035–1047. [https://doi.org/10.1038/jcbfm.2009.7](https://doi.org/10.1038/jcbfm.2009.7)*
 
 ## Data Overview
 
@@ -46,3 +38,11 @@ The derivatives dataset is composed of:
     - rCPS in subjects with fragile X syndrome
 
 2. There is currently no BIDS standard for rCPS statistical maps. As such, their naming was inspired by [a currently unnumbered BIDS Extension Proposal, linked here](https://docs.google.com/document/d/1KHzp-yk8KXvkUIhtN71WU0m4P4kKT9C1yvI-i9_kNeY/edit?usp=sharing).
+
+## Please cite
+
+1. *Bishu, S., Schmidt, K. C., Burlin, T. V., Charming, M. A., Horowitz, L., Huang, T., Liu, Z., Qin, M., Vuong, B.-K., Unterman, A. J., Xia, Z., Zametkin, A., Herscovitch, P., Quezado, Z., & Smith, C. B. (2009). Propofol Anesthesia Does Not Alter Regional Rates of Cerebral Protein Synthesis Measured with l -[1- 11 C]Leucine and PET in Healthy Male Subjects. Journal of Cerebral Blood Flow & Metabolism, 29(5), 1035–1047. [https://doi.org/10.1038/jcbfm.2009.7](https://doi.org/10.1038/jcbfm.2009.7)*
+
+## Questions or feedback
+
+For dataset questions or feedback, please email the NIMH Data Science & Sharing Team at [nimhdsst@mail.nih.gov](mailto:nimhdsst@mail.nih.gov).

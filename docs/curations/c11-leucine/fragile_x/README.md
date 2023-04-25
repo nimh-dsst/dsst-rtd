@@ -1,30 +1,10 @@
 # Rates of cerebral protein synthesis (rCPS) in subjects with fragile X syndrome
 
-For dataset questions or feedback, please email the NIMH Data Science & Sharing Team at [nimhdsst@mail.nih.gov](mailto:nimhdsst@mail.nih.gov).
-
 ## Introduction
 
+In this dataset all subjects (n=28) are males between the ages of 18 and 24 years (M=21.3, SD=1.9) and free of psychotropic medication. There are 16 healthy control subjects and 12 subjects with fragile X syndrome. See the `participants.tsv` file at the root of the dataset for full participant information. See the references in the [**Please cite**](#please-cite) section below for more information about this dataset.
+
 Included in this dataset are L-[1-11C]leucine 4D Positron Emission Tomography (PET) images, co-registered defaced 3D anatomical Magnetic Resonanace Imaging (MRI) T1-weighted images, blood sampling data, FreeSurfer derivative files, and FreeSurfer "fsaverage" group-averaged rCPS left and right hemisphere surface statistical maps. All data were collected on the NIH campus in Bethesda, Maryland, USA. For descriptions of data acquisition and processing methods, please see the methods sections of the published papers listed in the `dataset_description.json` file.
-
-## Study Overview
-
-Fragile X syndrome (FXS) is the most common inherited cause of intellectual disability.  Fragile X mental retardation protein, a putative translation suppressor, is significantly reduced in FXS. The prevailing hypothesis is that rCPS are increased by the absence of this regulatory protein. We have previously reported increased rCPS in the Fmr1 knockout mouse model of FXS. To address the hypothesis in human subjects, we applied the L [1-11C]leucine PET method to measure rCPS in adults with FXS and healthy controls.
-
-### Studies in conscious subjects
-
-In previous studies we had used sedation during imaging<sup>1,2</sup> and we did not find increases in rCPS as had been seen in the mouse model.  Since mouse measurements were conducted in awake animals, we considered the possibility that sedation may have confounded our results. In this study<sup>3</sup> we used a modified and validated PET protocol that made it easier for participants with FXS to undergo the study awake. We compared rCPS in 10 fragile X participants and 16 healthy controls all studied while awake.  Contrary to the prevailing hypothesis and findings in Fmr1 knockout mice, results indicate that rCPS in awake participants with FXS are decreased in whole brain and most brain regions by 13-21% compared to healthy controls.
-
-### Studies in subjects under dexmedetomidine anesthesia
-
-In this study<sup>1</sup> all subjects were males between the ages of 18 and 24 years and free of psychotropic medication.  As most fragile X participants were not able to undergo the PET study awake, we used dexmedetomidine for sedation during the imaging studies.  We found no differences between rCPS measured during dexmedetomidine-sedation and the awake state in ten healthy controls.  In the comparison of rCPS in dexmedetomidine-sedated fragile X participants (n=9) and healthy controls (n=14) we found no statistically significant differences.  These results in human subjects do not support the findings in animal models that rCPS are elevated in the absence of FMRP.  
-
-### Please cite the following papers when using this dataset
-
-1. *Bishu, S., Schmidt, K. C., Burlin, T. V., Charming, M. A., Horowitz, L., Huang, T., Liu, Z., Qin, M., Vuong, B.-K., Unterman, A. J., Xia, Z., Zametkin, A., Herscovitch, P., Quezado, Z., & Smith, C. B. (2009). Propofol Anesthesia Does Not Alter Regional Rates of Cerebral Protein Synthesis Measured with l -[1- 11 C]Leucine and PET in Healthy Male Subjects. Journal of Cerebral Blood Flow & Metabolism, 29(5), 1035–1047. [https://doi.org/10.1038/jcbfm.2009.7](https://doi.org/10.1038/jcbfm.2009.7)*
-
-2. *Schmidt, K. C., Loutaev, I., Quezado, Z., Sheeler, C., & Smith, C. B. (2020). Regional rates of brain protein synthesis are unaltered in dexmedetomidine sedated young men with fragile X syndrome: A L-[1-11C]leucine PET study. Neurobiology of Disease, 143, 104978. [https://doi.org/10.1016/j.nbd.2020.104978](https://doi.org/10.1016/j.nbd.2020.104978)*
-
-3. *Schmidt, K. C., Loutaev, I., Burlin, T. V., Thurm, A., Sheeler, C., & Smith, C. B. (2022). Decreased rates of cerebral protein synthesis in conscious young adults with fragile X syndrome demonstrated by L-[1- 11 C]leucine PET. Journal of Cerebral Blood Flow & Metabolism, 42(9), 1666–1675. [https://doi.org/10.1177/0271678X221090997](https://doi.org/10.1177/0271678X221090997)*
 
 ## Data Overview
 
@@ -60,3 +40,15 @@ The derivatives dataset is composed of:
 2. There is currently no BIDS standard for rCPS statistical maps. As such, their naming was inspired by [a currently unnumbered BIDS Extension Proposal, linked here](https://docs.google.com/document/d/1KHzp-yk8KXvkUIhtN71WU0m4P4kKT9C1yvI-i9_kNeY/edit?usp=sharing).
 
 3. `sub-HM20` was removed from this dataset because they were missing both PET and MRI data.
+
+## Please cite
+
+1. *Bishu, S., Schmidt, K. C., Burlin, T. V., Charming, M. A., Horowitz, L., Huang, T., Liu, Z., Qin, M., Vuong, B.-K., Unterman, A. J., Xia, Z., Zametkin, A., Herscovitch, P., Quezado, Z., & Smith, C. B. (2009). Propofol Anesthesia Does Not Alter Regional Rates of Cerebral Protein Synthesis Measured with l -[1- 11 C]Leucine and PET in Healthy Male Subjects. Journal of Cerebral Blood Flow & Metabolism, 29(5), 1035–1047. [https://doi.org/10.1038/jcbfm.2009.7](https://doi.org/10.1038/jcbfm.2009.7)*
+
+2. *Schmidt, K. C., Loutaev, I., Quezado, Z., Sheeler, C., & Smith, C. B. (2020). Regional rates of brain protein synthesis are unaltered in dexmedetomidine sedated young men with fragile X syndrome: A L-[1-11C]leucine PET study. Neurobiology of Disease, 143, 104978. [https://doi.org/10.1016/j.nbd.2020.104978](https://doi.org/10.1016/j.nbd.2020.104978)*
+
+3. *Schmidt, K. C., Loutaev, I., Burlin, T. V., Thurm, A., Sheeler, C., & Smith, C. B. (2022). Decreased rates of cerebral protein synthesis in conscious young adults with fragile X syndrome demonstrated by L-[1- 11 C]leucine PET. Journal of Cerebral Blood Flow & Metabolism, 42(9), 1666–1675. [https://doi.org/10.1177/0271678X221090997](https://doi.org/10.1177/0271678X221090997)*
+
+## Questions or feedback
+
+For dataset questions or feedback, please email the NIMH Data Science & Sharing Team at [nimhdsst@mail.nih.gov](mailto:nimhdsst@mail.nih.gov).
