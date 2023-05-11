@@ -41,9 +41,9 @@ The derivatives dataset is composed of:
 
 3. `sub-SP04` was removed from this dataset because they were missing both PET and MRI data.
 
-## Please cite
+## Reference
 
-1. *Picchioni, D., Schmidt, K. C., Loutaev, I., Pavletic, A. J., Sheeler, C., Bishu, S., Balkin, T. J., & Smith, C. B. (2023). Increased rates of brain protein synthesis during [N1,N2] sleep: L-[1- 11 C]leucine PET studies in human subjects. Journal of Cerebral Blood Flow & Metabolism, 43(1), 59–71. [https://doi.org/10.1177/0271678X221121873](https://doi.org/10.1177/0271678X221121873)*
+*Picchioni, D., Schmidt, K. C., Loutaev, I., Pavletic, A. J., Sheeler, C., Bishu, S., Balkin, T. J., & Smith, C. B. (2023). Increased rates of brain protein synthesis during [N1,N2] sleep: L-[1- 11 C]leucine PET studies in human subjects. Journal of Cerebral Blood Flow & Metabolism, 43(1), 59–71. [https://doi.org/10.1177/0271678X221121873](https://doi.org/10.1177/0271678X221121873)*
 
 ## Questions or feedback
 
