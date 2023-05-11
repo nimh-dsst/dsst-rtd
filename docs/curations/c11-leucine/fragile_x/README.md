@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this dataset all subjects (n=28) are males between the ages of 18 and 24 years (M=21.3, SD=1.9) and free of psychotropic medication. There are 16 healthy control subjects and 12 subjects with fragile X syndrome. See the `participants.tsv` file at the root of the dataset for full participant information. See the references in the [**Please cite**](#please-cite) section below for more information about this dataset.
+In this dataset all subjects (n=28) are males between the ages of 18 and 24 years (M=21.3, SD=1.9) and free of psychotropic medication. There are 16 healthy control subjects and 12 subjects with fragile X syndrome. See the `participants.tsv` file at the root of the dataset for full participant information. See [the references below](#references) for more information about this dataset.
 
 Included in this dataset are L-[1-11C]leucine 4D Positron Emission Tomography (PET) images, co-registered defaced 3D anatomical Magnetic Resonanace Imaging (MRI) T1-weighted images, blood sampling data, FreeSurfer derivative files, and FreeSurfer "fsaverage" group-averaged rCPS left and right hemisphere surface statistical maps. All data were collected on the NIH campus in Bethesda, Maryland, USA. For descriptions of data acquisition and processing methods, please see the methods sections of the published papers listed in the `dataset_description.json` file.
 
