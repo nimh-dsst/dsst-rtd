@@ -1,0 +1,16 @@
+# `/derivatives/rCPS/dataset_description.json`
+
+```json
+{
+  "Name": "Provided rates of cerebral protein synthesis derivatives from input PET data",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "Primary data analysis",
+      "Description": "See references in README for details."
+    }
+  ]
+}
+
+```
