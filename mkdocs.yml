@@ -30,6 +30,7 @@ nav:
       - rCPS in subjects with fragile X syndrome:
         - README.md: curations/c11-leucine/fragile_x/README.md
         - dataset_description.json: curations/c11-leucine/fragile_x/dataset_description.md
+        - CITATION.cff: curations/c11-leucine/fragile_x/CITATION.md
 
       - Effects of propofol anesthesia on rCPS:
         - README.md: curations/c11-leucine/propofol_anesthesia/README.md

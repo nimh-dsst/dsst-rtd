@@ -13,7 +13,9 @@
     "Audrey Thurm",
     "Carrie Sheeler",
     "Carolyn Beebe Smith",
-    "Zenaide Quezado",
+    "Zenaide Quezado"
+  ],
+  "Curators": [
     "Martin Nørgaard",
     "Eric Earl",
     "Anthony Galassi",
@@ -54,7 +56,9 @@
       "Description": "A tool for defacing MRI images in a way that is both minimally invasive and achieves goals of privacy",
       "CodeURL": "https://surfer.nmr.mgh.harvard.edu/fswiki/MiDeFace"
     }
-  ]
+  ],
+  "Species": "Human",
+  "StudyType": "Cross-Sectional"
 }
 
 ```
