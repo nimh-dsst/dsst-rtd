@@ -60,12 +60,16 @@ authors:
       Data Science & Sharing Team, National Institute of
       Mental Health, Bethesda, MD, USA
     orcid: https://orcid.org/0000-0001-5512-0083
+    contributions:
+        - Data curation
   - given-names: Anthony
     family-names: Galassi
     affiliation: >-
       Data Science & Sharing Team, National Institute of
       Mental Health, Bethesda, MD, USA
     orcid: https://orcid.org/0000-0001-6550-4574
+    contributions:
+        - Data curation
   - given-names: Adam
     family-names: Thomas
     name-particle: G
@@ -73,6 +77,8 @@ authors:
       Data Science & Sharing Team, National Institute of
       Mental Health, Bethesda, MD, USA
     orcid: https://orcid.org/0000-0002-2850-1419
+    contributions:
+        - Data curation
   - given-names: Carolyn
     family-names: Beebe Smith
     affiliation: >-
