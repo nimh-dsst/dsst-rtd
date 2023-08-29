@@ -54,3 +54,5 @@ nav:
     - DataLad New User FAQ: guides/datalad/faq.md
     - GitHub Ownership Transfer: guides/github/transfer.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
+
+  - References: references.md
