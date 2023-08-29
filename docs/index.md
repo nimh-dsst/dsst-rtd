@@ -7,6 +7,6 @@ This ReadTheDocs site is maintained by the the National Institute of Mental Heal
 2. [List of public datasets available on Biowulf/Helix](https://docs.google.com/spreadsheets/d/1t1VtW_ScMunEcrloxIv8197ezHQXCZQq_dxsSrH7SQI/edit?usp=sharing)
 3. [NIMH DSST GitHub](https://github.com/nimh-dsst)
 4. Collaborations
-5. References
+5. [References](references.md)
 
 
