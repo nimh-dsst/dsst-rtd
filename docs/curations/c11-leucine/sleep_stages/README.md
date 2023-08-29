@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This dataset was originally collected to measure regional cerebral protein synthesis rates (rCPS) in human subjects to ascertain how brain protein synthesis is affected during sleep. Subjects underwent three consecutive L-[1-11C]leucine Positron Emission Tomography (PET) scans with simultaneous polysomnography: 1. rested awake, 2. sleep-deprived awake, and 3. sleep. There are 9 female subjects (age in years M=22.7, SD=2.1) and 8 male subjects (age in years M=22.9, SD=2.7) in this dataset. See the `participants.tsv` file at the root of the dataset for full participant information. See [the reference below](#reference) for more information about this dataset.
+This dataset was originally collected to measure regional cerebral protein synthesis rates (rCPS) in human subjects to ascertain how brain protein synthesis is affected during sleep. Subjects underwent three consecutive L-[1-<sup>11</sup>C]Leucine Positron Emission Tomography (PET) scans with simultaneous polysomnography: 1. rested awake, 2. sleep-deprived awake, and 3. sleep. There are 9 female subjects (age in years M=22.7, SD=2.1) and 8 male subjects (age in years M=22.9, SD=2.7) in this dataset. See the `participants.tsv` file at the root of the dataset for full participant information. See [the reference below](#reference) for more information about this dataset.
 
-Included in this dataset are L-[1-11C]leucine 4D PET images, co-registered defaced 3D anatomical Magnetic Resonanace Imaging (MRI) T1-weighted images, blood sampling data, FreeSurfer derivative files, and FreeSurfer "fsaverage" group-averaged rCPS left and right hemisphere surface statistical maps. All data were collected on the NIH campus in Bethesda, Maryland, USA. For descriptions of data acquisition and processing methods, please see the methods sections of the published papers listed in the `dataset_description.json` file.
+Included in this dataset are L-[1-<sup>11</sup>C]Leucine 4D PET images, co-registered defaced 3D anatomical Magnetic Resonanace Imaging (MRI) T1-weighted images, blood sampling data, FreeSurfer derivative files, and FreeSurfer "fsaverage" group-averaged rCPS left and right hemisphere surface statistical maps. All data were collected on the NIH campus in Bethesda, Maryland, USA. For descriptions of data acquisition and processing methods, please see the methods sections of the published papers listed in the `dataset_description.json` file.
 
 ## Data Overview
 
@@ -43,7 +43,7 @@ The derivatives dataset is composed of:
 
 ## Reference
 
-*Picchioni, D., Schmidt, K. C., Loutaev, I., Pavletic, A. J., Sheeler, C., Bishu, S., Balkin, T. J., & Smith, C. B. (2023). Increased rates of brain protein synthesis during [N1,N2] sleep: L-[1- 11 C]leucine PET studies in human subjects. Journal of Cerebral Blood Flow & Metabolism, 43(1), 59–71. [https://doi.org/10.1177/0271678X221121873](https://doi.org/10.1177/0271678X221121873)*
+*Picchioni, D., Schmidt, K. C., Loutaev, I., Pavletic, A. J., Sheeler, C., Bishu, S., Balkin, T. J., & Smith, C. B. (2023). Increased rates of brain protein synthesis during [N1,N2] sleep: L-[1-<sup>11</sup>C]Leucine PET studies in human subjects. Journal of Cerebral Blood Flow & Metabolism, 43(1), 59–71. [https://doi.org/10.1177/0271678X221121873](https://doi.org/10.1177/0271678X221121873)*
 
 ## Questions or feedback
 
