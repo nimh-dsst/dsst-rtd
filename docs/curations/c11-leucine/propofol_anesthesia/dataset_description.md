@@ -21,7 +21,9 @@
     "Alan Zametkin",
     "Peter Herscovitch",
     "Zenaide Quezado",
-    "Carolyn B Smith",
+    "Carolyn B Smith"
+  ],
+  "Curators": [
     "Martin Nørgaard",
     "Eric Earl",
     "Anthony Galassi",

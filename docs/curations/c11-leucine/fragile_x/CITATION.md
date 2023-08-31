@@ -20,12 +20,21 @@ authors:
       Section on Neuroadaptation & Protein Metabolism,
       National Institute of Mental Health, National
       Institutes of Health, Bethesda, MD, USA
+    contributions:
+      - Study design
+      - Data interpretation
+      - Article revisions
+      - Data analysis
+      - Manuscript drafting
+      - Data curation
   - given-names: Inna
     family-names: Loutaev
     affiliation: >-
       Section on Neuroadaptation & Protein Metabolism,
       National Institute of Mental Health, National
       Institutes of Health, Bethesda, MD, USA
+    contributions:
+      - Data analysis
   - given-names: Thomas
     name-particle: V
     family-names: Burlin
@@ -33,6 +42,8 @@ authors:
       Section on Neuroadaptation & Protein Metabolism,
       National Institute of Mental Health, National
       Institutes of Health, Bethesda, MD, USA
+    contributions:
+      - Data analysis
   - given-names: Audrey
     family-names: Thurm
     affiliation: >-
@@ -40,12 +51,19 @@ authors:
       Office of the Clinical Director, National Institute of
       Mental Health, National Institutes of Health,
       Bethesda, MD, USA
+    contributions:
+      - Study design
+      - Data interpretation
+      - Article revisions
+      - Data analysis
   - given-names: Carrie
     family-names: Sheeler
     affiliation: >-
       Section on Neuroadaptation & Protein Metabolism,
       National Institute of Mental Health, National
       Institutes of Health, Bethesda, MD, USA
+    contributions:
+      - Data analysis
   - given-names: Martin
     family-names: Nørgaard
     affiliation: >-
@@ -53,7 +71,7 @@ authors:
       Neuroscience, Stanford University, Stanford, CA, USA
     orcid: https://orcid.org/0000-0003-2131-5688
     contributions:
-        - Data curation
+      - Data curation
   - given-names: Eric
     family-names: Earl
     affiliation: >-
@@ -61,7 +79,7 @@ authors:
       Mental Health, Bethesda, MD, USA
     orcid: https://orcid.org/0000-0001-5512-0083
     contributions:
-        - Data curation
+      - Data curation
   - given-names: Anthony
     family-names: Galassi
     affiliation: >-
@@ -69,7 +87,7 @@ authors:
       Mental Health, Bethesda, MD, USA
     orcid: https://orcid.org/0000-0001-6550-4574
     contributions:
-        - Data curation
+      - Data curation
   - given-names: Adam
     family-names: Thomas
     name-particle: G
@@ -78,16 +96,24 @@ authors:
       Mental Health, Bethesda, MD, USA
     orcid: https://orcid.org/0000-0002-2850-1419
     contributions:
-        - Data curation
+      - Data curation
   - given-names: Carolyn
     family-names: Beebe Smith
     affiliation: >-
       Section on Neuroadaptation & Protein Metabolism,
       National Institute of Mental Health, National
       Institutes of Health, Bethesda, MD, USA
+    contributions:
+      - Study design
+      - Data interpretation
+      - Article revisions
+      - Data analysis
+      - Manuscript drafting
   - given-names: Zenaide
     family-names: Quezado
     affiliation: >-
       Department of Perioperative Medicine, Clinical Center,
       National Institutes of Health, Bethesda, MD, USA
+    contributions:
+      - Manuscript author
 ```
