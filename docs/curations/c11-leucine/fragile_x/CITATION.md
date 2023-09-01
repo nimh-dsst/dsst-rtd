@@ -4,14 +4,17 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 
-cff-version: 1.2.0
+cff-version: 1.3.0
 title: >-
   Rates of cerebral protein synthesis in subjects with
   fragile X syndrome
 message: >-
-  If you use this dataset, please cite it using the metadata
-  from this file.
+  If you use this dataset, please acknowledge the papers
+  which brought about this dataset by citing
+  https://doi.org/10.1177/0271678X221090997 and
+  https://doi.org/10.1016/j.nbd.2020.104978.
 type: dataset
+license: CC0-1.0
 authors:
   - given-names: Kathleen
     family-names: Schmidt

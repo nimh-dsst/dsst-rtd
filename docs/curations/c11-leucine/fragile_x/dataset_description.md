@@ -5,24 +5,7 @@
   "Name": "Rates of cerebral protein synthesis in subjects with fragile X syndrome",
   "BIDSVersion": "1.8.0",
   "DatasetType": "raw",
-  "License": "CC0",
-  "Authors": [
-    "Kathleen C Schmidt",
-    "Inna Loutaev",
-    "Thomas V Burlin",
-    "Audrey Thurm",
-    "Carrie Sheeler",
-    "Carolyn Beebe Smith",
-    "Zenaide Quezado"
-  ],
-  "Curators": [
-    "Martin Nørgaard",
-    "Eric Earl",
-    "Anthony Galassi",
-    "Adam Thomas"
-  ],
   "Acknowledgements": "We gratefully acknowledge the participation of the NIH PET Department, in particular, M. Channing, K. Chung, W. Kong, S. Conant, and S. Thada. We also acknowledge the help of the NIH Department of Perioperative Medicine, in particular, A. Mannes, N Miao, and J. Labovsky. We acknowledge the help of T. Burlin, R. Hommer, D. Picchioni, A. Morrow, K. Turetsky, B. Evans, D. Vesselinovitch, Z. Xia, and T. Huang during the studies and R. Saré for helpful advice on the manuscript.",
-  "HowToAcknowledge": "Cite https://doi.org/10.1177/0271678X221090997 and https://doi.org/10.1016/j.nbd.2020.104978",
   "Funding": [
     "MH000889",
     "MH002935"
@@ -60,5 +43,4 @@
   "Species": "Human",
   "StudyType": "Cross-Sectional"
 }
-
 ```

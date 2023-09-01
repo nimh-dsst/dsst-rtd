@@ -1,10 +1,11 @@
 # `/CITATION.cff`
 
 ```yaml
-cff-version: 1.2.0
+cff-version: 1.3.0
 title: Effects of propofol anesthesia on rates of cerebral protein synthesis
-message: If you use this dataset, please cite it using the metadata from this file.
+message: If you use this dataset, please acknowledge the papers which brought about this dataset by citing https://doi.org/10.1038/jcbfm.2009.7.
 type: dataset
+license: CC0-1.0
 authors:
 - affiliation: Section on Neuroadaptation and Protein Metabolism, National Institute of Mental Health, Bethesda, Maryland, USA
   contributions:
