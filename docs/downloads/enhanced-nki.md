@@ -19,16 +19,12 @@ aws s3 cp --no-sign-request s3://fcp-indi/data/Projects/RocklandSample/RawDataBI
 This command downloads all contents at s3://fcp-indi/data/Projects/RocklandSample/RawDataBIDSLatest/
 
 #### Download summary
-<details>
-      <summary> Click for details </summary>
      
-   - Download completed successfully and without errors.
+- Download completed successfully and without errors.
    
-   - Dataset size is **2.3 TB** and located in the project directory within `via_s3_bucket`. 
+- Dataset size is **2.3 TB** and located in the project directory within `via_s3_bucket`. 
      
-   - Total files downloaded: **104181**
-
-</details>
+- Total files downloaded: **104181**
 
 ### 2. Using python script
 
@@ -45,8 +41,6 @@ This command downloads all contents at s3://fcp-indi/data/Projects/RocklandSampl
    b. The above command was run three times to ensure that the files in the dataset had been downloaded completely without interruptions.
    
 #### Download summary
-   <details>
-      <summary> Click for details </summary>
 
 The following table shows a summary of counts based on `aws_links.csv` file (at the time of writing):
    
@@ -61,7 +55,6 @@ By using the distributed python script for download, only 93299 files could be d
    
 The subset of rows/files that were excluded by the python script have been stored in `aws_links_excluded_subset.csv` on 
 
-</details>
 
 ## Helpful links
 1. Enhanced NKI RS website: http://fcon_1000.projects.nitrc.org/indi/enhanced/index.html
