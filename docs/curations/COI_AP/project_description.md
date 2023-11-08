@@ -17,6 +17,16 @@ The dataset included the following types of data:
 
 3. Phenotype data
 
+## Modality-agnostic files
+The following modality-agnostic files are included here:
+* dataset_description.json
+* participants.json
+* participants.tsv
+* phenotype.json
+* phenotype.tsv
+* README
+* task-AffectivePosner_beh.json
+* task-AffectivePosner_events.json
 
 ## Project Assets
 1. Dataset on OpenNeuro: 
