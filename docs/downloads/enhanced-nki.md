@@ -9,12 +9,12 @@ Neuroimaging data access instructions: http://fcon_1000.projects.nitrc.org/indi/
    
 ### 1. Using python script
 
-   1. CSV file with S3 links was downloaded from [here](http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html). The downloaded `aws_links.csv` file can be found at `/data/DSST/Enhanced-NKI-RS/DSST/aws_links.csv` on biowulf.
+   1. CSV file with S3 links was downloaded from [here](http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html). The downloaded `aws_links.csv` file can be found at `/data/NIMH_scratch/enhanced-NKI-20231026/DSST/aws_links.csv` on biowulf.
    2. Python script distributed at http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html was used to download
    the dataset.
-      a. The following command was run from `/data/DSST/Enhanced-NKI-RS/DSST/`:
+      a. The following command was run from `/data/NIMH_scratch/enhanced-NKI-20231026/DSST`:
       ```bash
-      swarm -f /data/DSST/Enhanced-NKI-RS/DSST/download_cmds.swarm --merge-output --job-name nki-dwnld --logdir /data/DSST/Enhanced-NKI-RS/DSST/swarm_log
+      swarm -f /data/NIMH_scratch/enhanced-NKI-20231026/DSST/download_cmds.swarm --merge-output --job-name nki-dwnld --logdir /data/NIMH_scratch/enhanced-NKI-20231026/DSST/swarm_log
       ```
       b. The above command was run three times to ensure that the files in the dataset had been downloaded completely without interruptions.
    
@@ -32,7 +32,7 @@ The following table shows a summary of counts based on `aws_links.csv` file (at 
    
 By using the distributed python script for download, only 93299 files could be downloaded due to the exclusionary conditions specified in the script. The curators have been contacted to verify whether the exclusions in sessions and files is as they intended for it or if its the case that the script is outdated. (Still awaiting reply)
    
-The subset of rows/files that were excluded by the python script have been stored on `/data/DSST/Enhanced-NKI-RS/DSST/aws_links_excluded_subset.csv`
+The subset of rows/files that were excluded by the python script have been stored on `/data/NIMH_scratch/enhanced-NKI-20231026/DSST/aws_links_excluded_subset.csv`
 </details>
 
    
