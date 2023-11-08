@@ -53,7 +53,7 @@ nav:
         - rcps-modified-petprep: curations/c11-leucine/petprep_dataset_description.md
 
   - Dataset Downloads:
-    - Enhanced NKI: dataset_downloads/enhanced-nki.md
+    - Enhanced NKI: downloads/enhanced-nki.md
             
   # please keep "Guides" alphabetical by first character
   - Guides:
