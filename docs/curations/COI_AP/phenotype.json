@@ -1,0 +1,245 @@
+{
+    "participant_id":{
+    	"Description": "participant identifier"
+    },
+
+    "IQ_WASI": {
+        "Description": "Score from abbreviated 2 scale IQ test from the Wechsler Abbreviated Scale of Intelligence (WASI). Citation: Wechsler, D. (2011). Wechsler Abbreviated Scale of Intelligence--Second Edition (WASI-II)"
+    },
+
+    "SES": {
+        "Description": "Socioeconomic Status (SES) reported by the child's parent. Citation: Hollingshead, A. (1975). Four-factor index of social status. New Haven, CT: Yale University."
+    },
+
+    "INCOME": {
+        "Description": "Self-reported household's gross income",
+        "Levels": {
+            "1": "Under $5,000",
+            "2": "$5,000-$9,999",
+            "3": "$10,000-$14,999",
+            "4": "$15,000-$24,999",
+            "5": "$25,000-$39,999",
+            "6": "$40,000-$59,999",
+            "7": "$60,000-$89,999",
+            "8": "$90,000-$179,999",
+            "9": "Over $180,000"
+ 	 }
+    },
+
+    "RACE_WHITE": {
+        "Description": "The participant identifies as White",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "RACE_BLACK": {
+        "Description": "The participant identifies as Black",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "RACE_ASIAN": {
+        "Description": "The participant identifies as Asian",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "RACE_MULTIPLERACES": {
+        "Description": "The participant has multiple racial identities",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+	}
+    },
+
+    "ETHNICITY_HISPANIC": {
+        "Description": "Participant self-identified status as Hispanic/Latinx",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "CONNERS_DSMIV_INATTENTIVE_T_SCORE": {
+        "Description": "DSM IV Inattentive scale T score from the Conners (3rd edition) Comprehensive Behavioral Rating Scale (CBRS) for parents. Citation: Conners, C. K., Pitkanen, J., & Rzepa, S. R. (2011). Conners 3rd Edition (Conners 3; Conners 2008). In J. S. Kreutzer, J. DeLuca, & B. Caplan (Eds.), Encyclopedia of Clinical Neuropsychology (pp. 675–678). Springer New York."
+    },
+
+    "CONNERS_DSMIV_HYPER_IMPLS_T_SCORE": {
+        "Description": "DSM IV Hyperactive/Impulsive scale T score from the Conners (3rd edition) Comprehensive Behavioral Rating Scale (CBRS) for parents. Citation: Conners, C. K., Pitkanen, J., & Rzepa, S. R. (2011). Conners 3rd Edition (Conners 3; Conners 2008). In J. S. Kreutzer, J. DeLuca, & B. Caplan (Eds.), Encyclopedia of Clinical Neuropsychology (pp. 675–678). Springer New York."
+    },
+
+    "ARIP6_TOTAL": {
+        "Description": "Total score on the parent-completed Affective Reactivity Index (ARI), with values ranging from 0 to 12. Citation: Stringaris A, Goodman R, Ferdinando S, Razdan V, Muhrer E, Leibenluft E, Brotman MA. The Affective Reactivity Index: a concise irritability scale for clinical and research settings. J Child Psychol Psychiatry. 2012 Nov;53(11):1109-17."
+    },
+
+    "ARIY6_TOTAL": {
+        "Description": "Total score on the participant-completed Affective Reactivity Index (ARI), with values ranging from 0 to 12. Citation: Stringaris A, Goodman R, Ferdinando S, Razdan V, Muhrer E, Leibenluft E, Brotman MA. The Affective Reactivity Index: a concise irritability scale for clinical and research settings. J Child Psychol Psychiatry. 2012 Nov;53(11):1109-17."
+    },
+
+    "SCARED_PAR_TOTAL_SCORE": {
+        "Description": "Total score on the Screen for Child Rated Anxiety Disorders (SCARED) for parents with values ranging from 0 to 82. Citation: Birmaher, B., Brent, D. A., Chiappetta, L., Bridge, J., Monga, S., & Baugher, M. (1999). Psychometric properties of the Screen for Child Anxiety Related Emotional Disorders (SCARED): a replication study. Journal of the American Academy of Child and Adolescent Psychiatry, 38(10), 1230–6."
+    },
+
+     "SCARED_CH_TOTAL_SCORE": {
+        "Description": "Total score on the Screen for Child Rated Anxiety Disorders (SCARED) for children with values ranging from 0 to 82. Citation: Birmaher, B., Brent, D. A., Chiappetta, L., Bridge, J., Monga, S., & Baugher, M. (1999). Psychometric properties of the Screen for Child Anxiety Related Emotional Disorders (SCARED): a replication study. Journal of the American Academy of Child and Adolescent Psychiatry, 38(10), 1230–6."
+    },
+
+    "CDI_TOTAL_SCORE": {
+        "Description": "Total score on the Children's Depression Inventory (CDI), with values ranging from 0 to 54. Citation: Kovacs M. (1985). The Children's Depression, Inventory (CDI). Psychopharmacology bulletin, 21(4), 995–998."
+    },
+
+    "MED_ANTIDEPRESSANT": {
+        "Description": "The participant takes anti-depressant medication",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "MED_ANTICONVULSANTEPILEPTIC": {
+        "Description": "The participant takes epilepsy medication",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "MED_ANTIPSYCHOTIC": {
+        "Description": "The participant takes aytipical antipsychotic medication",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "MED_STIMULANT": {
+        "Description": "The participant takes stimulant medication",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "MED_NONSTIMULANT": {
+        "Description": "The participant takes non-stimulant ADHD medication",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+ 
+    "MED_TRANQUILZER": {
+        "Description": "The participant takes a tranqulizer medication",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+	}
+    },
+ 
+    "MED_MOODSTABILIZER": {
+        "Description": "The participant takes a mood stabilizer medication",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+	}
+    },
+ 
+    "MEDLOAD": {
+        "Description": "Psychotropic medication load. Calculated from participant's current medications using guidelines proposed in Sackeim HA. The definition and meaning of treatment-resistant depression. J Clin Psychiatry. 2001;62 Suppl 16:10-7. PMID: 11480879."
+    }, 
+
+    "DX_ANX": {
+        "Description": "The participant meets criteria for an anxiety disorder using the Kiddie Schedule for Affective Disorders - Present and Lifetime Version (KSADS-PL). Citation: Kaufman J, Birmaher B, Brent D, Rao U, Flynn C, Moreci P, Williamson D, Ryan N. Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version (K-SADS-PL): initial reliability and validity data. J Am Acad Child Adolesc Psychiatry. 1997 Jul;36(7):980-8.",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "DX_ADHD": {
+        "Description": "The participant meets criteria for attention-deficit/hyperactivity disorder using the ADHD supplement of the Kiddie Schedule for Affective Disorders - Present and Lifetime Version (KSADS-PL). Citation: Kaufman J, Birmaher B, Brent D, Rao U, Flynn C, Moreci P, Williamson D, Ryan N. Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version (K-SADS-PL): initial reliability and validity data. J Am Acad Child Adolesc Psychiatry. 1997 Jul;36(7):980-8.",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "DX_DMDD": {
+        "Description": "The participant meets criteria for disruptive mood dysregulation disorder (DMDD) using the DMDD supplement of the Kiddie Schedule for Affective Disorders - Present and Lifetime Version (KSADS-PL). Citation: Kaufman J, Birmaher B, Brent D, Rao U, Flynn C, Moreci P, Williamson D, Ryan N. Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version (K-SADS-PL): initial reliability and validity data. J Am Acad Child Adolesc Psychiatry. 1997 Jul;36(7):980-8.",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "DX_ODD": {
+        "Description": "The participant meets criteria for oppositional defiant disorder (ODD) using the Kiddie Schedule for Affective Disorders - Present and Lifetime Version (KSADS-PL). Citation: Kaufman J, Birmaher B, Brent D, Rao U, Flynn C, Moreci P, Williamson D, Ryan N. Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version (K-SADS-PL): initial reliability and validity data. J Am Acad Child Adolesc Psychiatry. 1997 Jul;36(7):980-8.",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "DX_HV": {
+        "Description": "The participant is a healthy volunteer and does not meet criteria for any psychiatric disorder using the Kiddie Schedule for Affective Disorders - Present and Lifetime Version (KSADS-PL). Citation: Kaufman J, Birmaher B, Brent D, Rao U, Flynn C, Moreci P, Williamson D, Ryan N. Schedule for Affective Disorders and Schizophrenia for School-Age Children-Present and Lifetime Version (K-SADS-PL): initial reliability and validity data. J Am Acad Child Adolesc Psychiatry. 1997 Jul;36(7):980-8.",
+        "Levels": {
+            "1": "yes",
+            "-1": "no"
+        }
+    },
+
+    "COI_ED_NAT": {
+        "Description": "Child Opportunity Index 2.0 (COI) nationally-normed Education index. Source: https://www.diversitydatakids.org/sites/default/files/2020-02/ddk_coi2.0_technical_documentation_20200212.pdf."
+    },
+
+    "COI_HE_NAT": {
+        "Description": "Child Opportunity Index 2.0 (COI) nationally-normed Health & Environment index. Source: https://www.diversitydatakids.org/sites/default/files/2020-02/ddk_coi2.0_technical_documentation_20200212.pdf."
+    },
+
+    "COI_SE_NAT": {
+        "Description": "Child Opportunity Index 2.0 (COI) nationally-normed Social & Economic index. Source: https://www.diversitydatakids.org/sites/default/files/2020-02/ddk_coi2.0_technical_documentation_20200212.pdf."
+    },
+
+    "COI_OVERALL_INDEX_NAT": {
+        "Description": "Child Opportunity Index 2.0 (COI) nationally-normed overall index score. Source: https://www.diversitydatakids.org/sites/default/files/2020-02/ddk_coi2.0_technical_documentation_20200212.pdf."
+    },
+
+    "RUN1_FRUST": {
+        "Description": "Participant self-rated frustration following Affective Posner task run 1, from 1 ('not at all') to 9 ('extremely')."
+    },
+
+    "RUN1_SAD": {
+        "Description": "Participant self-rated sadness following Affective Posner task run 1, from 1 ('happy') to 9 ('sad')."
+    },
+
+    "RUN2_FRUST": {
+        "Description": "Participant self-rated frustration following Affective Posner task run 2, from 1 ('not at all') to 9 ('extremely')."
+    },
+
+    "RUN2_SAD": {
+        "Description": "Participant self-rated sadness following Affective Posner task run 2, from 1 ('happy') to 9 ('sad')."
+    },
+
+    "RUN3_FRUST": {
+        "Description": "Participant self-rated frustration following Affective Posner task run 3, from 1 ('not at all') to 9 ('extremely')."
+    },
+
+    "RUN3_SAD": {
+        "Description": "Participant self-rated sadness following Affective Posner task run 3, from 1 ('happy') to 9 ('sad')."
+    },
+
+    "RUN4_FRUST": {
+        "Description": "Participant self-rated frustration following Affective Posner task run 4, from 1 ('not at all') to 9 ('extremely')."
+    },
+
+    "RUN4_SAD": {
+        "Description": "Participant self-rated sadness following Affective Posner task run 4, from 1 ('happy') to 9 ('sad')."
+    }
+
+}
