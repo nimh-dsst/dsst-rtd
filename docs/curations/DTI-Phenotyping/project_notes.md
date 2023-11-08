@@ -4,15 +4,23 @@ The Phenotyping and DTI dataset was prepared for the Section on Mood Dysregulati
 ## Summary
 The goal for this dataset was to publish it to OpenNeuro in time for an associated manuscript submission.  
 The dataset included the following types of data:
+
 1. Imaging
+
    - Anatomical scans (T1w, T2w)
+
    - Diffusion weighted scans 
-2. Phenotype
+
+3. Phenotype
 
 We actively collaborated with the first author on the manuscript, Dr. Cameron McKay, a postdoc on the SMDN group to 
+
 * Deface structural scans and visual QC them
+
 * Draft modality agnostic files
+
 * Rename files based on unique acquisition groups
+
 * Upload to OpenNeuro
 
 ## Project Assets
