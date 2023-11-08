@@ -27,6 +27,7 @@ This command downloads all contents at s3://fcp-indi/data/Projects/RocklandSampl
    - Dataset size is **2.3 TB** and located in the project directory within `via_s3_bucket`. 
      
    - Total files downloaded: **104181**
+
 </details>
 
 ### 2. Using python script
@@ -37,9 +38,9 @@ This command downloads all contents at s3://fcp-indi/data/Projects/RocklandSampl
 
    a. The following command was used:
       
-   ```bash
+```bash
    swarm -f /data/NIMH_scratch/enhanced-NKI-20231026/DSST/download_cmds.swarm --merge-output --job-name nki-dwnld --logdir /data/NIMH_scratch/enhanced-NKI-20231026/DSST/swarm_log
-   ```
+```
       
    b. The above command was run three times to ensure that the files in the dataset had been downloaded completely without interruptions.
    
@@ -48,22 +49,18 @@ This command downloads all contents at s3://fcp-indi/data/Projects/RocklandSampl
       <summary> Click for details </summary>
 
 The following table shows a summary of counts based on `aws_links.csv` file (at the time of writing):
-
    
 |                        | Counts     |
-
 |------------------------|------------|
-
 | Rows (or S3 filepaths) | **112716** |
-
 | **Unique** rows        | **102924** |
-
 | Files downloaded       |  **93299** |
    
 
 By using the distributed python script for download, only 93299 files could be downloaded due to the exclusionary conditions specified in the script. The curators have been contacted to verify whether the exclusions in sessions and files is as they intended for it or if its the case that the script is outdated. (Still awaiting reply)
    
 The subset of rows/files that were excluded by the python script have been stored in `aws_links_excluded_subset.csv` on 
+
 </details>
 
 ## Helpful links
