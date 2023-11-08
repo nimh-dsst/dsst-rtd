@@ -1,17 +1,21 @@
 # The Enhanced Nathan Kline Institute (NKI) - Rockland Sample
 
 ## Download steps
+Project directory on biowulf: `/data/NIMH_scratch/enhanced-NKI-20231026`
+Internal curation files: `/data/NIMH_scratch/enhanced-NKI-20231026/DSST`
 
 ### 1. Using python script
 
-   1. CSV file with S3 links was downloaded from [here](http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html). The downloaded `aws_links.csv` file can be found at `/data/NIMH_scratch/enhanced-NKI-20231026/DSST/aws_links.csv` on biowulf.
-   2. Python script distributed at http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html was used to download
+1. CSV file with S3 links was downloaded from [here](http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html). The downloaded `aws_links.csv` file can be found in 
+2. Python script distributed at http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html was used to download
    the dataset.
-      a. The following command was run from `/data/NIMH_scratch/enhanced-NKI-20231026/DSST`:
-      ```bash
+   a. The following command was run from `/data/NIMH_scratch/enhanced-NKI-20231026/DSST`:
+      
+   ```bash
       swarm -f /data/NIMH_scratch/enhanced-NKI-20231026/DSST/download_cmds.swarm --merge-output --job-name nki-dwnld --logdir /data/NIMH_scratch/enhanced-NKI-20231026/DSST/swarm_log
-      ```
-      b. The above command was run three times to ensure that the files in the dataset had been downloaded completely without interruptions.
+   ```
+      
+   b. The above command was run three times to ensure that the files in the dataset had been downloaded completely without interruptions.
    
 #### Download verification
    <details>
