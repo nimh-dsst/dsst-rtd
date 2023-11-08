@@ -52,7 +52,6 @@ nav:
   - Dataset Downloads:
     - Enhanced NKI: dataset_downloads/enhanced-nki.md
             
-  
   # please keep "Guides" alphabetical by first character
   - Guides:
     - DataLad New User FAQ: guides/datalad/faq.md
