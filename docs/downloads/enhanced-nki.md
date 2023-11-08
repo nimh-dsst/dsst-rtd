@@ -1,12 +1,7 @@
 # The Enhanced Nathan Kline Institute (NKI) - Rockland Sample
 
-Website: http://fcon_1000.projects.nitrc.org/indi/enhanced/index.html
-
-Neuroimaging data access instructions: http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html
-
 ## Download steps
 
-   
 ### 1. Using python script
 
    1. CSV file with S3 links was downloaded from [here](http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html). The downloaded `aws_links.csv` file can be found at `/data/NIMH_scratch/enhanced-NKI-20231026/DSST/aws_links.csv` on biowulf.
@@ -50,5 +45,9 @@ aws s3 cp --no-sign-request s3://fcp-indi/data/Projects/RocklandSample/RawDataBI
 Download still in progress
 </details>
 
+## Helpful links
+1. Enhanced NKI RS website: http://fcon_1000.projects.nitrc.org/indi/enhanced/index.html
+2. Neuroimaging data access instructions: http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html
+3. INDI Registry of Open Data on AWS page: https://registry.opendata.aws/fcp-indi/
 
 
