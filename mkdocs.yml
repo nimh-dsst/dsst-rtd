@@ -20,6 +20,9 @@ nav:
       - README.md: curations/06-M-0102/README.md
       - scans.json: curations/06-M-0102/scans.md
 
+    - DTI Phenotyping:
+      - Curation Notes: curations/DTI-Phenotyping/project_notes.md
+
     - 17-M-0181 - Healthy Volunteers Protocol:
       - dataset_description.json: curations/17-M-0181/dataset_description.md
       - README.md: curations/17-M-0181/README.md
