@@ -52,6 +52,15 @@ nav:
         - Provided rCPS: curations/c11-leucine/rcps_dataset_description.md
         - rcps-modified-petprep: curations/c11-leucine/petprep_dataset_description.md
 
+    - COI_AP - Associations between neighborhood resources and youth's response to reward omission in a task modeling negatively biased environments:
+      - dataset_description.json: curations/COI_AP/dataset_description.md
+      - README.md: curations/COI_AP/README.md
+      - participants.json: curations/COI_AP/participants.md
+      - phenotype.json: curations/COI_AP/phenotype.md
+      - task-AffectivePosner_beh.json: curations/COI_AP/task-AffectivePosner_beh.md
+      - task-AffectivePosner_events.json: curations/COI_AP/task-AffectivePosner_events.md
+      - Internal Curation Notes & Project Description: curations/COI_AP/project_description.md
+
   - Dataset Downloads:
     - The Enhanced NKI Rockland Sample: downloads/enhanced-nki.md
             
