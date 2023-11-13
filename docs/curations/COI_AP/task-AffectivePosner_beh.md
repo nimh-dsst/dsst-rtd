@@ -1,3 +1,6 @@
+# `task-AffectivePosner_beh.json`
+
+```json
 {
   "trial": {
     "Description": "Number of the current trial, starting from 1."
@@ -68,3 +71,4 @@
     }
   }
 }
+```
