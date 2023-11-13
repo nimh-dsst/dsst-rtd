@@ -1,3 +1,6 @@
+# `phenotype.json`
+
+```json
 {
     "participant_id":{
     	"Description": "participant identifier"
@@ -243,3 +246,4 @@
     }
 
 }
+```
