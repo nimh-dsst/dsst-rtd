@@ -1,3 +1,6 @@
+# `task-AffectivePosner_events.json`
+
+```json
 {
   "onset": {
     "Description": "Onset of the event.",
@@ -78,3 +81,4 @@
     }
   }
 }
+```
