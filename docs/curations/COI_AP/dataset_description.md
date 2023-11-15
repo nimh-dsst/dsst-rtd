@@ -9,12 +9,12 @@
     "Authors": [
         "Berron Brown",
         "Lynn Nguyen",
-	"Isaac Morales",
-	"Elise M. Cardinale",
-	"Wan-Ling Tseng",
-	"Cameron C. McKay",
+        "Isaac Morales",
+        "Elise M. Cardinale",
+        "Wan-Ling Tseng",
+        "Cameron C. McKay",
         "Katharina Kircanski",
-	"Melissa A. Brotman",
+        "Melissa A. Brotman",
         "Daniel S. Pine",
         "Ellen Leibenluft",
         "Julia O. Linke"
@@ -27,7 +27,7 @@
         "ZIAMH002782"
     ],
     "EthicsApprovals": [
-        "NIH Clinical Study Protocols NCT02531893 (Psychological Treatments for Youth With Severe Irritability) and NCT00025935 (Studies of Brain Function and Course of Illness in Pediatric Bipolar Disorder)."
+        "NIH Clinical Study Protocols NCT02531893 (Psychological Treatments for Youth With Severe Irritability), NCT00025935 (Studies of Brain Function and Course of Illness in Pediatric Bipolar Disorder), and NCT00018057 (Clinical Trial of Fluoxetine in Anxiety and Depression in Children, and Associated Brain Changes)."
     ],
     "ReferencesAndLinks": [
         "Tseng et al., 2019; doi: 10.1176/appi.ajp.2018.18040491",
