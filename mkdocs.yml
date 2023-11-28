@@ -1,6 +1,6 @@
 site_name: NIMH Data Science & Sharing Team
 
-theme: material
+# theme: material
 
 plugins:
   - search
