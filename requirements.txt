@@ -1,3 +1,4 @@
 # mkdocs-material
 # mkdocs-gitbook
 mkdocs-bootstrap4
+mkdocs-redirects
