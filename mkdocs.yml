@@ -16,13 +16,13 @@ nav:
   - IRP Data Curations: curations.md
   - Available Public Datasets: public.md
 
+  - Tools: tools.md
+
   # please keep "Guides" alphabetical by first character
-  - Tools:
-    - Code: tools.md
-    - Guides:
-      - DataLad New User FAQ: guides/datalad/faq.md
-      - GitHub Ownership Transfer: guides/github/transfer.md
-      - NDA Tools Usage: guides/nda/downloadcmd.md
-      - Enhanced NKI Rockland Sample Download: guides/downloads/enhanced-nki.md
+  - Guides:
+    - DataLad New User FAQ: guides/datalad/faq.md
+    - Enhanced NKI Rockland Sample Download: guides/downloads/enhanced-nki.md
+    - GitHub Ownership Transfer: guides/github/transfer.md
+    - NDA Tools Usage: guides/nda/downloadcmd.md
 
   - References: references.md
