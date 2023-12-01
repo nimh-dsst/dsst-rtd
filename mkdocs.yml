@@ -12,18 +12,17 @@ docs_dir: docs
 
 nav:
   - Welcome: index.md
-
   - About: about.md
-
-  - NIMH IRP Data Curations: curations.md
-
+  - IRP Data Curations: curations.md
   - Available Public Datasets: public.md
 
   # please keep "Guides" alphabetical by first character
   - Tools:
-    - DataLad New User FAQ: guides/datalad/faq.md
-    - GitHub Ownership Transfer: guides/github/transfer.md
-    - NDA Tools Usage: guides/nda/downloadcmd.md
-    - Enhanced NKI Rockland Sample Download: downloads/enhanced-nki.md
+    - Code: tools.md
+    - Guides:
+      - DataLad New User FAQ: guides/datalad/faq.md
+      - GitHub Ownership Transfer: guides/github/transfer.md
+      - NDA Tools Usage: guides/nda/downloadcmd.md
+      - Enhanced NKI Rockland Sample Download: guides/downloads/enhanced-nki.md
 
   - References: references.md
