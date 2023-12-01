@@ -1,6 +1,6 @@
 site_name: NIMH Data Science & Sharing Team
 
-theme: cinder
+theme: gitbook
 
 plugins:
   - search
