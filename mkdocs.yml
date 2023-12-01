@@ -4,6 +4,9 @@ theme: bootstrap4
 
 plugins:
   - search
+  - git-committers:
+      repository: nih-fmrif/dsst-rtd
+      branch: main
   - redirects:
       redirect_maps:
         'about.md': 'https://cmn.nimh.nih.gov/dsst'
@@ -15,7 +18,6 @@ nav:
   - About: about.md
   - IRP Data Curations: curations.md
   - Available Public Datasets: public.md
-
   - Tools: tools.md
 
   # please keep "Guides" alphabetical by first character
