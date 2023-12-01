@@ -10,64 +10,15 @@ docs_dir: docs
 nav:
   - About: index.md
 
-  # please keep "Curations" alphabetical by first character, numbers first
-  - IRP Data Release Curations:
+  - NIMH IRP Data Curations: curations.md
 
-    - 06-M-0102 - Autism Subtypes Study:
-      - CHANGES: curations/06-M-0102/CHANGES.md
-      - dataset_description.json: curations/06-M-0102/dataset_description.md
-      - participants.json: curations/06-M-0102/participants.md
-      - README.md: curations/06-M-0102/README.md
-      - scans.json: curations/06-M-0102/scans.md
+  - Available Public Datasets: public.md
 
-    - DTI Phenotyping:
-      - Internal Curation Notes: curations/DTI-Phenotyping/project_notes.md
-
-    - 17-M-0181 - Healthy Volunteers Protocol:
-      - dataset_description.json: curations/17-M-0181/dataset_description.md
-      - README.md: curations/17-M-0181/README.md
-      - Internal Curation Notes: curations/17-M-0181/curation.md
-
-    - Measurement of rCPS in human subjects:
-
-      - rCPS in subjects with fragile X syndrome:
-        - README.md: curations/c11-leucine/fragile_x/README.md
-        - dataset_description.json: curations/c11-leucine/fragile_x/dataset_description.md
-        - CITATION.cff: curations/c11-leucine/fragile_x/CITATION.md
-
-      - Effects of propofol anesthesia on rCPS:
-        - README.md: curations/c11-leucine/propofol_anesthesia/README.md
-        - dataset_description.json: curations/c11-leucine/propofol_anesthesia/dataset_description.md
-
-      - rCPS and memory formation during sleep:
-        - README.md: curations/c11-leucine/sleep_memory/README.md
-        - dataset_description.json: curations/c11-leucine/sleep_memory/dataset_description.md
-
-      - rCPS in stages of sleep:
-        - README.md: curations/c11-leucine/sleep_stages/README.md
-        - dataset_description.json: curations/c11-leucine/sleep_stages/dataset_description.md
-
-      - Derivatives dataset_description.json files:
-        - FreeSurfer: curations/c11-leucine/freesurfer_dataset_description.md
-        - Provided rCPS: curations/c11-leucine/rcps_dataset_description.md
-        - rcps-modified-petprep: curations/c11-leucine/petprep_dataset_description.md
-
-    - COI_AP - Associations between neighborhood resources and youth's response to reward omission in a task modeling negatively biased environments:
-      - dataset_description.json: curations/COI_AP/dataset_description.md
-      - README.md: curations/COI_AP/README.md
-      - participants.json: curations/COI_AP/participants.md
-      - phenotype.json: curations/COI_AP/phenotype.md
-      - task-AffectivePosner_beh.json: curations/COI_AP/task-AffectivePosner_beh.md
-      - task-AffectivePosner_events.json: curations/COI_AP/task-AffectivePosner_events.md
-      - Internal Curation Notes & Project Description: curations/COI_AP/project_description.md
-
-  - Dataset Downloads:
-    - The Enhanced NKI Rockland Sample: downloads/enhanced-nki.md
-            
   # please keep "Guides" alphabetical by first character
   - Guides:
     - DataLad New User FAQ: guides/datalad/faq.md
     - GitHub Ownership Transfer: guides/github/transfer.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
+    - Enhanced NKI Rockland Sample Download: downloads/enhanced-nki.md
 
   - References: references.md
