@@ -124,7 +124,7 @@ using [AFNI Refacer version 2.4](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/
 Defaced scans were visually inspected for quality
 using [VisualQC's](https://github.com/raamana/visualqc/tree/0.6.1https://github.com/raamana/visualqc/tree/0.6.1) suite
 of QC tools. More details on the defacing workflow used can be
-found [here](https://github.com/nih-fmrif/dsst-defacing-pipeline).
+found [here](https://github.com/nimh-dsst/dsst-defacing-pipeline).
 
 8 of the 31 scans that failed first round of QC were manually defaced
 using [FSLeyes image editor](https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes/userdoc/editing_images.html) and the remaining 23 of 31 were programmatically corrected to ensure defacing quality. Defacing technique used for each scan in the dataset has been documented in the `scans.tsv` file.

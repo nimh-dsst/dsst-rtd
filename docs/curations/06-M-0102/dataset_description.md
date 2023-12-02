@@ -79,7 +79,7 @@
       "Name": "DSST Defacing Pipeline",
       "Version": "1.0.0",
       "Description": "Defacing workflow to deface anatomical scans, evaluate defacing accuracy and correct defacing that failed visual inspection.",
-      "CodeURL": "https://github.com/nih-fmrif/dsst-defacing-pipeline"
+      "CodeURL": "https://github.com/nimh-dsst/dsst-defacing-pipeline"
     },
     {
       "Name": "VisualQC",

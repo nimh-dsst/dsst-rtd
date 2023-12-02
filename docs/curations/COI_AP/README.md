@@ -106,7 +106,7 @@ Clinical measures can be found in the `phenotype.tsv` file, with each measure/as
 
 Imaging data in this study is distributed in NifTI format after undergoing conversion from DCM via `dcm2niix`. The images were acquired with a 3.0 Tesla field strength.
 
-We have de-identified the anatomical scans by defacing the scans using v1.0.0 of the [DSST Defacing Pipeline](https://github.com/nih-fmrif/dsst-defacing-pipeline/).
+We have de-identified the anatomical scans by defacing the scans using v1.0.0 of the [DSST Defacing Pipeline](https://github.com/nimh-dsst/dsst-defacing-pipeline/).
 
 ### AP Task Data Acquisition & Organization
 
