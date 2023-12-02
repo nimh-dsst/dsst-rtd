@@ -4,6 +4,8 @@ theme: bootstrap4
 
 plugins:
   - search
+  - git-revision-date-localized:
+      type: date
   - git-committers:
       repository: nimh-dsst/dsst-rtd
       branch: main
