@@ -18,8 +18,8 @@ docs_dir: docs
 nav:
   - Welcome: index.md
   - About: about.md
-  - IRP Data Curations: curations.md
-  - Available Public Datasets: public.md
+  - IRP Curations: curations.md
+  - Public Datasets: public.md
   - Tools: tools.md
 
   # please keep "Guides" alphabetical by first character
