@@ -2,5 +2,6 @@
 # mkdocs-gitbook
 mkdocs-bootstrap4
 mkdocs-redirects
-mkdocs-git-committers-plugin-2
-mkdocs-git-revision-date-localized-plugin
+mkdocs-git-committers-plugin
+# mkdocs-git-committers-plugin-2
+# mkdocs-git-revision-date-localized-plugin

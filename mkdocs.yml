@@ -4,13 +4,12 @@ theme: bootstrap4
 
 plugins:
   - search
-  - git-revision-date-localized:
-      type: date
   - git-committers:
       repository: nimh-dsst/dsst-rtd
       branch: main
       # current 12/1/2023 fine-grained personal access token expires 12/1/2024
-      token: !ENV [MKDOCS_GIT_COMMITTERS_APIKEY]
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+      # token: !ENV [MKDOCS_GIT_COMMITTERS_APIKEY]
   - redirects:
       redirect_maps:
         'about.md': 'https://cmn.nimh.nih.gov/dsst'
