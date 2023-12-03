@@ -11,7 +11,8 @@ plugins:
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - redirects:
       redirect_maps:
-        'about.md': 'https://cmn.nimh.nih.gov/dsst'
+        about.md: https://cmn.nimh.nih.gov/dsst
+        public.md: https://docs.google.com/spreadsheets/d/1t1VtW_ScMunEcrloxIv8197ezHQXCZQq_dxsSrH7SQI/edit?usp=sharing
 
 docs_dir: docs
 
