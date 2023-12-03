@@ -18,10 +18,10 @@ docs_dir: docs
 
 nav:
   - Welcome: index.md
-  - About: about.md
+  - About (►): about.md
   - Datasets:
     - Curated IRP: curations.md
-    - Publicly Available: public.md
+    - Publicly Available (►): public.md
   - Tools: tools.md
 
   # please keep "Guides" alphabetical by first character
