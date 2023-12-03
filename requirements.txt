@@ -3,4 +3,3 @@
 mkdocs-bootstrap4
 mkdocs-redirects
 mkdocs-git-committers-plugin
-# mkdocs-git-committers-plugin-2

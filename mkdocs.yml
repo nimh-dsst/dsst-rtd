@@ -9,7 +9,6 @@ plugins:
       branch: main
       # current 12/1/2023 fine-grained personal access token expires 12/1/2024
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
-      # token: !ENV MKDOCS_GIT_COMMITTERS_APIKEY
   - redirects:
       redirect_maps:
         'about.md': 'https://cmn.nimh.nih.gov/dsst'
@@ -19,8 +18,9 @@ docs_dir: docs
 nav:
   - Welcome: index.md
   - About: about.md
-  - IRP Curations: curations.md
-  - Public Datasets: public.md
+  - Datasets:
+    - Curated IRP: curations.md
+    - Publicly Available: public.md
   - Tools: tools.md
 
   # please keep "Guides" alphabetical by first character
