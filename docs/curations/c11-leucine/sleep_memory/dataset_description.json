@@ -20,7 +20,9 @@
     "Diana M Vesselinovitch",
     "Carrie A Sheeler",
     "Thomas J Balkin",
-    "Carolyn B Smith",
+    "Carolyn B Smith"
+  ],
+  "Curators": [
     "Martin Nørgaard",
     "Eric Earl",
     "Anthony Galassi",
@@ -29,9 +31,9 @@
   "Acknowledgements": "The authors would like to acknowledge the following individuals for their help: Adams, G., Allard, R., Burlin, T., Castellano, J., Catalano, R., Chung, K., Conant, S., Friedman, R., Gogtay, N., Huang, T., Jones, A., Kabiru, R., Kim, J., Klapec, K., Kong, W., Lee, B., Martinez, P., Morgan, A., Newman, R., Polk, D., Powers, M., Prindle, N., Ratcliffe, R., Strickland-Mangano, A., Thada, S., and Xia, Z.",
   "HowToAcknowledge": "Cite https://doi.org/10.1093/sleep/zsy088",
   "Funding": [
-    "Intramural Research Program of the National Institute of Mental Health (ZIA MH000889)",
-    "Intramural Research Program of the National Institute of Neurological Disorders and Stroke",
-    "Military Operational Medicine Research Program of the United States Army Medical Research and Material Command"
+    "1ZIAMH000889 from the Intramural Research Program of the National Institute of Mental Health",
+    "1ZIANS003027 from the Intramural Research Program of the National Institute of Neurological Disorders and Stroke",
+    "W81XWH-08-D-0047 from the Military Operational Medicine Research Program of the United States Army Medical Research and Materiel Command"
   ],
   "EthicsApprovals": [
     "National Institutes of Health Institutional Review Board Protocol Number is 09-M-N230."

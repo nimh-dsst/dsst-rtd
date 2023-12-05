@@ -2,11 +2,34 @@
   "Name": "Effects of propofol anesthesia on rates of cerebral protein synthesis",
   "BIDSVersion": "1.8.0",
   "DatasetType": "raw",
+  "License": "CC0",
+  "Authors": [
+    "Shrinivas Bishu",
+    "Kathleen C Schmidt",
+    "Thomas V Burlin",
+    "Michael A Charming",
+    "Lisa Horowitz",
+    "Tianjiang Huang",
+    "Zhong-Hua Liu",
+    "Mei Qin",
+    "B-K Vuong",
+    "Aaron J Unterman",
+    "Zengyan Xia",
+    "Alan Zametkin",
+    "Peter Herscovitch",
+    "Zenaide Quezado",
+    "Carolyn B Smith"
+  ],
+  "Curators": [
+    "Martin Nørgaard",
+    "Eric Earl",
+    "Anthony Galassi",
+    "Adam Thomas"
+  ],
   "Acknowledgements": "We thank the following members of the PET Department: S Conant, G Jacobs, S Sestrich, B Furmanek, K Chung, M Der (RPh), J Kusmierz (R. Ph), C Barker (PhD), and S Thada; the Department of Anesthesia and Surgical Services: William Kammerer (MD) and Ning Miao (MD); and the Office of the Clinical Director, NIMH: E Ballard and R Prengler.",
+  "HowToAcknowledge": "Cite https://doi.org/10.1038/jcbfm.2009.7",
   "Funding": [
-    "Intramural Research Program, National Institute of Mental Health",
-    "Clinical Center, National Institutes of Health",
-    "Fragile X Research Foundation"
+    "1ZIAMH000889"
   ],
   "EthicsApprovals": [
     "National Institutes of Health Combined Neuroscience Institutional Review Board",

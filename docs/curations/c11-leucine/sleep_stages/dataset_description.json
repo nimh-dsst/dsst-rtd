@@ -11,7 +11,9 @@
     "Carrie Sheeler",
     "Shrinivas Bishu",
     "Thomas J Balkin",
-    "Carolyn B Smith",
+    "Carolyn B Smith"
+  ],
+  "Curators": [
     "Martin Nørgaard",
     "Eric Earl",
     "Anthony Galassi",
@@ -20,8 +22,8 @@
   "Acknowledgements": "We gratefully acknowledge the following individuals for their help: Burlin, T., Duyn, J., Ethridge, S., Evans, B., Friedman, R., Howell, G., Huang, T., Lee, B., Loomba, N., McWhirter, K., Miao, N., Morrow, A., Nadel, J., Nichols, D., Qin, M., Saré, R., Sheeler, C., Speer, A., Turetsky, K., Vesselinovitch, D., Xia, Z., and Zametkin, A.",
   "HowToAcknowledge": "Cite https://doi.org/10.1177/0271678X221121873",
   "Funding": [
-    "ZIA-MH002936 from the Intramural Research Program of the National Institute of Mental Health (Crossref Funder ID: 100000025)",
-    "ZIA-NS003027 from the Intramural Research Program of the National Institute of Neurological Disorders and Stroke (Crossref Funder ID: 100000065)",
+    "1ZIAMH002936 from the Intramural Research Program of the National Institute of Mental Health (Crossref Funder ID: 100000025)",
+    "1ZIANS003027 from the Intramural Research Program of the National Institute of Neurological Disorders and Stroke (Crossref Funder ID: 100000065)",
     "W81XWH-08-D-0047 from the Military Operational Medicine Research Program of the United States Army Medical Research and Materiel Command (Crossref Funder ID: 100000182)"
   ],
   "EthicsApprovals": [
