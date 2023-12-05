@@ -1,6 +1,3 @@
-# `/derivatives/freesurfer/dataset_description.json`
-
-```json
 {
   "Name": "FreeSurfer derivatives",
   "BIDSVersion": "1.8.0",
@@ -14,5 +11,3 @@
     }
   ]
 }
-
-```

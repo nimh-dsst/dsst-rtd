@@ -1,6 +1,3 @@
-# `phenotype.json`
-
-```json
 {
     "participant_id":{
         "Description": "participant identifier"
@@ -207,4 +204,3 @@
         "Description": "Participant self-rated sadness following Affective Posner task run 4, from 1 ('happy') to 9 ('sad')."
     }
 }
-```

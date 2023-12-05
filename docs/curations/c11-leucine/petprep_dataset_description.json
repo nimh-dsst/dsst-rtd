@@ -1,6 +1,3 @@
-# `/derivatives/rcps-modified-petprep/dataset_description.json`
-
-```json
 {
   "Name": "Derivatives from modified version of PETPrep pipeline",
   "BIDSVersion": "1.8.0",
@@ -14,5 +11,3 @@
     }
   ]
 }
-
-```

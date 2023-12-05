@@ -1,6 +1,3 @@
-# `/derivatives/rCPS/dataset_description.json`
-
-```json
 {
   "Name": "Provided rates of cerebral protein synthesis derivatives from input PET data",
   "BIDSVersion": "1.8.0",
@@ -12,5 +9,3 @@
     }
   ]
 }
-
-```

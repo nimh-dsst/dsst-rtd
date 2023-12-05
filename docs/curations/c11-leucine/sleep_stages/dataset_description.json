@@ -1,6 +1,3 @@
-# `/dataset_description.json`
-
-```json
 {
   "Name": "Rates of cerebral protein synthesis in stages of sleep",
   "BIDSVersion": "1.8.0",
@@ -57,5 +54,3 @@
     }
   ]
 }
-
-```
