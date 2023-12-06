@@ -32,10 +32,10 @@ The derivatives dataset is composed of:
 
 1. The following datasets were prepared to the Brain Imaging Data Structure (BIDS) standard at the same time with the same filename and folder organizations due to their similarity:
 
-    - Effects of propofol anesthesia on rCPS
-    - rCPS and memory formation during sleep
-    - rCPS in stages of sleep
-    - rCPS in subjects with fragile X syndrome
+    - [rCPS in subjects with fragile X syndrome](https://openneuro.org/datasets/ds004654)
+    - [Effects of propofol anesthesia on rCPS](https://openneuro.org/datasets/ds004730)
+    - [rCPS and memory formation during sleep](https://openneuro.org/datasets/ds004731)
+    - [rCPS in stages of sleep](https://openneuro.org/datasets/ds004733)
 
 2. There is currently no BIDS standard for rCPS statistical maps. As such, their naming was inspired by [a currently unnumbered BIDS Extension Proposal, linked here](https://docs.google.com/document/d/1KHzp-yk8KXvkUIhtN71WU0m4P4kKT9C1yvI-i9_kNeY/edit?usp=sharing).
 
