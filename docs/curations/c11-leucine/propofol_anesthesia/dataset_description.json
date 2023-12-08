@@ -28,7 +28,7 @@
     "Adam Thomas"
   ],
   "Acknowledgements": "We thank the following members of the PET Department: S Conant, G Jacobs, S Sestrich, B Furmanek, K Chung, M Der (RPh), J Kusmierz (R. Ph), C Barker (PhD), and S Thada; the Department of Anesthesia and Surgical Services: William Kammerer (MD) and Ning Miao (MD); and the Office of the Clinical Director, NIMH: E Ballard and R Prengler.",
-  "HowToAcknowledge": "Cite https://doi.org/10.1038/jcbfm.2009.7",
+  "HowToAcknowledge": "Cite https://doi.org/10.1038/jcbfm.2009.7 and the dataset DOI on OpenNeuro for the dataset version you are using",
   "Funding": [
     "1ZIAMH000889"
   ],

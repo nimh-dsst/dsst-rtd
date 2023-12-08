@@ -30,7 +30,7 @@
     "Adam Thomas"
   ],
   "Acknowledgements": "The authors would like to acknowledge the following individuals for their help: Adams, G., Allard, R., Burlin, T., Castellano, J., Catalano, R., Chung, K., Conant, S., Friedman, R., Gogtay, N., Huang, T., Jones, A., Kabiru, R., Kim, J., Klapec, K., Kong, W., Lee, B., Martinez, P., Morgan, A., Newman, R., Polk, D., Powers, M., Prindle, N., Ratcliffe, R., Strickland-Mangano, A., Thada, S., and Xia, Z.",
-  "HowToAcknowledge": "Cite https://doi.org/10.1093/sleep/zsy088",
+  "HowToAcknowledge": "Cite https://doi.org/10.1093/sleep/zsy088 and the dataset DOI on OpenNeuro for the dataset version you are using",
   "Funding": [
     "1ZIAMH000889 from the Intramural Research Program of the National Institute of Mental Health",
     "1ZIANS003027 from the Intramural Research Program of the National Institute of Neurological Disorders and Stroke",

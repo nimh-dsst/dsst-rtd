@@ -43,11 +43,9 @@ The derivatives dataset is composed of:
 
 ## References
 
-1. *Bishu, S., Schmidt, K. C., Burlin, T. V., Charming, M. A., Horowitz, L., Huang, T., Liu, Z., Qin, M., Vuong, B.-K., Unterman, A. J., Xia, Z., Zametkin, A., Herscovitch, P., Quezado, Z., & Smith, C. B. (2009). Propofol Anesthesia Does Not Alter Regional Rates of Cerebral Protein Synthesis Measured with L-[1-<sup>11</sup>C]Leucine and PET in Healthy Male Subjects. Journal of Cerebral Blood Flow & Metabolism, 29(5), 1035–1047. [https://doi.org/10.1038/jcbfm.2009.7](https://doi.org/10.1038/jcbfm.2009.7)*
+1. *Schmidt, K. C., Loutaev, I., Quezado, Z., Sheeler, C., & Smith, C. B. (2020). Regional rates of brain protein synthesis are unaltered in dexmedetomidine sedated young men with fragile X syndrome: A L-[1-<sup>11</sup>C]Leucine PET study. Neurobiology of Disease, 143, 104978. [https://doi.org/10.1016/j.nbd.2020.104978](https://doi.org/10.1016/j.nbd.2020.104978)*
 
-2. *Schmidt, K. C., Loutaev, I., Quezado, Z., Sheeler, C., & Smith, C. B. (2020). Regional rates of brain protein synthesis are unaltered in dexmedetomidine sedated young men with fragile X syndrome: A L-[1-<sup>11</sup>C]Leucine PET study. Neurobiology of Disease, 143, 104978. [https://doi.org/10.1016/j.nbd.2020.104978](https://doi.org/10.1016/j.nbd.2020.104978)*
-
-3. *Schmidt, K. C., Loutaev, I., Burlin, T. V., Thurm, A., Sheeler, C., & Smith, C. B. (2022). Decreased rates of cerebral protein synthesis in conscious young adults with fragile X syndrome demonstrated by L-[1-<sup>11</sup>C]Leucine PET. Journal of Cerebral Blood Flow & Metabolism, 42(9), 1666–1675. [https://doi.org/10.1177/0271678X221090997](https://doi.org/10.1177/0271678X221090997)*
+2. *Schmidt, K. C., Loutaev, I., Burlin, T. V., Thurm, A., Sheeler, C., & Smith, C. B. (2022). Decreased rates of cerebral protein synthesis in conscious young adults with fragile X syndrome demonstrated by L-[1-<sup>11</sup>C]Leucine PET. Journal of Cerebral Blood Flow & Metabolism, 42(9), 1666–1675. [https://doi.org/10.1177/0271678X221090997](https://doi.org/10.1177/0271678X221090997)*
 
 ## Questions or feedback
 
