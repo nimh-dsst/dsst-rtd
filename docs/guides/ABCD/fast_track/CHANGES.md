@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Deprecated
 
-- Found out the DWI BVAL and BVEC files are overwritten after conversion in the code we were using, so we are encouraging users to avoid these data for now. We are working on a fix.
+- Found out the DWI BVAL and BVEC files are overwritten after conversion in the code we were using, so we are telling users to avoid these data for now. We are working on a fix.
 
 ## [1.0.2] - 2022-05-24
 

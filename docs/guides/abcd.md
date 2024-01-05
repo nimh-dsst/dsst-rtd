@@ -10,14 +10,14 @@ This dataset currently contains the following data.
 
 - [README](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/collection_3165/README)
 
-An NDA collection of input (unprocessed) and derivative (processed) imaging data from the DCAN Labs' ABCD BIDS Community Collection (ABCC).  Derivatives were processed through the DCAN Labs' ABCD BIDS pipeline (abcd-hcp-pipeline).
+An NDA collection of input (unprocessed) and derivative (processed) imaging data from the DCAN Labs' ABCD BIDS Community Collection (ABCC).  Derivatives were processed through the DCAN Labs' ABCD BIDS pipeline ([abcd-hcp-pipeline](https://github.com/DCAN-Labs/abcd-hcp-pipeline)).
 
 ## fast_track
 
 - [README.md](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/README.md)
-- [CHANGES.md](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/CHANGES.md)
+- [CHANGES](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/CHANGES.md)
 
-The NDA releases newly-collected raw DICOM data every so often. We do our best to stay up to date with downloading the DICOM data (read: every 6 months or so) and converting it to a BIDS tree of NIfTI images. See fast_track/CHANGES for a changelog of when the last update occured.
+The NDA releases newly-collected raw DICOM data every so often. We do our best to stay up to date with downloading the DICOM data (read: every 6 months or so) and converting it to a BIDS tree of NIfTI images. See the CHANGES file above for a change-log of when the last update occured and what was included in each update.
 
 ## tabulated_data
 
