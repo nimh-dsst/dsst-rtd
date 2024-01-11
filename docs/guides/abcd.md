@@ -14,7 +14,7 @@ An NDA collection of input (unprocessed) and derivative (processed) imaging data
 
 ## fast_track
 
-- [README.md](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/README.md)
+- [README](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/README.md)
 - [CHANGES](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/CHANGES.md)
 
 The NDA releases newly-collected raw DICOM data every so often. We do our best to stay up to date with downloading the DICOM data and converting it to a BIDS tree of NIfTI images. See the CHANGES file above for a change-log of when the last update occured and what was included in each update.
