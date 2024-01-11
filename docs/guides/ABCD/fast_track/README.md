@@ -6,27 +6,27 @@ This ABCD data collection was created by downloading the NDA's fast track qualit
 
 ## Collection contents
 
-### sourcedata
+### derivatives
 
-Contains E-Prime timing files for the functional tasks.
+Contains processed derivatives of rawdata under folders named after their pipeline name and pipeline software version like: `<pipeline>-<version>/`.
 
 ### rawdata
 
 Contains the unprocessed as-converted imaging data which was not recalled (see "Quality Control information" below for more on what "not recalled" means).
 
-### derivatives
+### sourcedata
 
-Contains processed derivatives of rawdata under folders named after their pipeline name and pipeline software version like: `<pipeline>-<version>`.
+Contains E-Prime timing files for the functional tasks.
 
 ## Quality Control (QC) information
 
 Data in this collection includes all non-recalled data (`ftq_recalled` = 0), regardless of the quality rating (`ftq_usable`) provided from the ABCD Data Analysis Informatics & Resource Center (DAIRC). See Note 1 below for more on `ftq_usable`. The QC file that was used to download and convert the data is in the `code/abcd_fastqc01_history/` subdirectory.
 
-You can find a summarized version of the QC ratings in our aggregated file `qc.tsv`. This QC file includes the ratings made by the ABCD DAIRC from the NDA's `abcd_fastqc01.txt` file as well as mappings from the NDA's `ftq_series_id` to the BIDS tree filenames. You can find the full data dictionary at `qc.json`.
+You can find a summarized version of the QC ratings in our aggregated file `scans.tsv`. This file includes the QC ratings made by the ABCD DAIRC from the NDA's `abcd_fastqc01.txt` file as well as mappings from the NDA's `ftq_series_id` to the BIDS tree filenames. You can find the full data dictionary in `scans.json`.
 
-- Note 1: The `ftq_usable` field is a summary measure indicating that the series is not missing any DICOMs (`ftq_complete` = 1), passed "raw" QC and has no severe artifacts (`ftq_quality` = 1), and has not been recalled by consent being withdrawn or NDA file replacement (`ftq_recalled` = 0).
-- Note 2: No field map's QC ratings are included in the `qc.tsv` file because they could not be directly mapped from NIfTI file names to exact `ftq_series_id` from the original spreadsheet.
-- Note 3: No DWI image's QC ratings are currently included in the `qc.tsv` because of the known issue with the current DWI BVAL ancd BVEC files outlined in the "known issues" below.
+- **Note 1**: The `ftq_usable` field is a summary measure indicating that the series is not missing any DICOMs (`ftq_complete` = 1), passed "raw" QC and has no severe artifacts (`ftq_quality` = 1), and has not been recalled by consent being withdrawn or NDA file replacement (`ftq_recalled` = 0).
+- **Note 2**: No field map's QC ratings are included in the `scans.tsv` file because they could not be directly mapped from NIfTI file names to exact `ftq_series_id` from the original spreadsheet.
+- **Note 3**: No DWI image's QC ratings are currently included in the `scans.tsv` because of the known issue with the current DWI BVAL ancd BVEC files outlined in the **Known issues** below.
 
 ## Known issues
 
