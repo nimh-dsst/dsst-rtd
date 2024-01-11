@@ -17,8 +17,8 @@ An NDA collection of input (unprocessed) and derivative (processed) imaging data
 - [README.md](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/README.md)
 - [CHANGES](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/CHANGES.md)
 
-The NDA releases newly-collected raw DICOM data every so often. We do our best to stay up to date with downloading the DICOM data (read: every 6 months or so) and converting it to a BIDS tree of NIfTI images. See the CHANGES file above for a change-log of when the last update occured and what was included in each update.
+The NDA releases newly-collected raw DICOM data every so often. We do our best to stay up to date with downloading the DICOM data and converting it to a BIDS tree of NIfTI images. See the CHANGES file above for a change-log of when the last update occured and what was included in each update.
 
 ## tabulated_data
 
-Every year the NDA releases it's "Curated Annual Release" of tabulated data. Here is where you'll find all of the phenotypic, behavioral, demographic, and other curated annual release data. See the NDA's website or the ABCD's Data Exploration and Analysis Portal (DEAP) for more information about the data contained therein. Note: the raw tabulated data are not distributed in a BIDS compliant format.
+Every year the NDA releases it's "Curated Annual Release" of tabulated data. Here is where you'll find all of the phenotypic, behavioral, demographic, and other curated annual release data. See the [ABCD tabulated data dictionary](https://data-dict.abcdstudy.org/?), the [ABCD Wiki](https://wiki.abcdstudy.org/), or the [NDA ABCD page](https://nda.nih.gov/abcd) for more information about the data contained therein. Note: the raw tabulated data are not distributed in a BIDS-compliant format.
