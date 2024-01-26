@@ -4,11 +4,12 @@ Welcome to the Adolescent Brain Cognitive Development Study (ABCD) data sets, cu
 
 This README gives a high-level overview of the contents of the dataset. For more detailed information, please see the README and CHANGES files within each subdirectory.
 
-This dataset currently contains the following data.
+This dataset currently contains the following data with the exeption of subjects who withdrew their consent.
 
 ## collection_3165
 
 - [README](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/collection_3165/README)
+- [CHANGES](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/collection_3165/CHANGES)
 
 An NDA collection of input (unprocessed) and derivative (processed) imaging data from the DCAN Labs' ABCD BIDS Community Collection (ABCC).  Derivatives were processed through the DCAN Labs' ABCD BIDS pipeline ([abcd-hcp-pipeline](https://github.com/DCAN-Labs/abcd-hcp-pipeline)).
 

@@ -2,7 +2,7 @@
 
 The NDA's ABCD fast track data is released in regular batches throughout the year. We aim to keep the dataset up-to-date every 6 months or so. See [CHANGES](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/guides/ABCD/fast_track/CHANGES.md) for more info regarding the exact latest updates.
 
-This ABCD data collection was created by downloading the NDA's fast track quality control file (abcd_fastqc01.txt), which contains Amazon S3 links to the raw DICOM imaging data for each series. Data was downloaded and converted using [a modified version of the DCAN Labs' abcd-dicom2bids code](https://github.com/nih-fmrif/abcd-dicom2bids).
+This ABCD data collection was created by downloading the NDA's fast track quality control file (abcd_fastqc01.txt), which contains Amazon S3 links to the raw DICOM imaging data for each series. Data was downloaded and converted using [a modified version of the DCAN Labs' abcd-dicom2bids code](https://github.com/nih-fmrif/abcd-dicom2bids). All subjects who withdrew their consent have been removed from all `rawdata`, `sourcedata`, and `derivatives` folders.
 
 ## Collection contents
 
