@@ -1,5 +1,5 @@
-0.0.1 2024-01-26
-  - Removed data from subjects whose consent was withdrawn from the study. See `/data/ABCD_DSST/ABCD/consent_withdrawn.txt` for list of subjects.
+0.0.1 2024-02-08
+  - Removed rawdata, sourcedata, and derivatives data as well as rows in the participants.tsv from subjects whose consent was withdrawn from the study. See `/data/ABCD_DSST/ABCD/consent_withdrawn.txt` for list of subjects.
 
 0.0.0 2018-08-22
   - Initial collection.
