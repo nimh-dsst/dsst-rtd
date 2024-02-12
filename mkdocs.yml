@@ -31,5 +31,6 @@ nav:
     - Enhanced NKI Rockland Sample Download: guides/downloads/enhanced-nki.md
     - GitHub Ownership Transfer: guides/github/transfer.md
     - NDA Tools Usage: guides/nda/downloadcmd.md
+    - Trainings: guides/trainings.md
 
   - References: references.md
