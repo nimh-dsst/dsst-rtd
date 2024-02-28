@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed
 
-- Corrected 1,848 MRI sessions with incorrect `task-rest` run orders. No problems with other `func` tasks were detected. The original incorrect orders prior to this fix can be seen in `code/fast_track_run_orders_2024-02-21.json`. The corrected orders can be seen in `code/fast_track_run_orders_2024-02-27.json`. The diagnostic code and re-ordering code can be found at `code/diagnose_run_orders.py` and `code/reorder_diagnosed_runs.py`, respectively.
+- Corrected 1,848 MRI sessions with incorrect `task-rest` run orders. The original incorrect orders prior to this fix can be seen in `code/fast_track_run_orders_2024-02-21.json`. The corrected orders can be seen in `code/fast_track_run_orders_2024-02-27.json`. The diagnostic code and re-ordering code can be found at `code/diagnose_run_orders.py` and `code/reorder_diagnosed_runs.py`, respectively.
 
 ## [1.1.2] - 2024-02-13
 
