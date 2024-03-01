@@ -1,12 +1,19 @@
 # The Enhanced Nathan Kline Institute (NKI) - Rockland Sample
 
-## Download steps
+## Overview
 
-On biowulf, 
+On biowulf, the rawdata (in BIDS format) for enhanced NKI dataset is at `/data/DSST/Enhanced-NKI-RS` and the derivatives for this dataset is at  `/data/NIMH_scratch/enhanced-NKI-20231026`. By rawdata, I mean the dataset as distributed by the creators (see below download steps). Due to storage limit issues we decided to store the rawdata and derivatives in separate locations. 
 
-Project directory: `/data/NIMH_scratch/enhanced-NKI-20231026`
+* **Rawdata:** `/data/DSST/Enhanced-NKI-RS`
+* **DSST scripts:** `/data/DSST/Enhanced-NKI-RS/DSST`
+* **Derivates:** `/data/NIMH_scratch/Enhanced-NKI-RS-derivatives`
 
-DSST curation directory: `/data/NIMH_scratch/enhanced-NKI-20231026/DSST`
+
+## CHANGES
+
+- **2024-02-28 :** Within `/data/DSST/Enhanced-NKI-RS`, created a new directory `2020_05_27_download` that now contains only the files that've changed in the latest version of the dataset that was downloaded on 2023-11-07. We've preserved only the changed files for the sake of reproducibility of analyses that used the older version. The recently downloaded data are in `2023_11_07_download` directory.
+
+## Download Steps
 
 ### 1. Using AWS S3 command line tool
 
