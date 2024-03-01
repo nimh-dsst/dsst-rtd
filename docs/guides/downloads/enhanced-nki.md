@@ -6,12 +6,7 @@ On biowulf, the rawdata (in BIDS format) for enhanced NKI dataset is at `/data/D
 
 * **Rawdata:** `/data/DSST/Enhanced-NKI-RS`
 * **DSST scripts:** `/data/DSST/Enhanced-NKI-RS/DSST`
-* **Derivates:** `/data/NIMH_scratch/Enhanced-NKI-RS-derivatives`
-
-
-## CHANGES
-
-- **2024-02-28 :** Within `/data/DSST/Enhanced-NKI-RS`, created a new directory `2020_05_27_download` that now contains only the files that've changed in the latest version of the dataset that was downloaded on 2023-11-07. We've preserved only the changed files for the sake of reproducibility of analyses that used the older version. The recently downloaded data are in `2023_11_07_download` directory.
+* **Derivatives:** `/data/NIMH_scratch/Enhanced-NKI-RS-derivatives`
 
 ## Download Steps
 
@@ -51,17 +46,20 @@ This command downloads all contents at s3://fcp-indi/data/Projects/RocklandSampl
 
 The following table shows a summary of counts based on `aws_links.csv` file (at the time of writing):
    
-|                        | Counts     |
-|------------------------|------------|
-| Rows (or S3 filepaths) | **112716** |
-| **Unique** rows        | **102924** |
-| Files downloaded       |  **93299** |
+|                        | Counts      |
+|------------------------|-------------|
+| Rows (or S3 filepaths) |  **112716** |
+| **Unique** rows        |  **102924** |
+| Files downloaded       |   **93299** |
    
 
 By using the distributed python script for download, only 93299 files could be downloaded due to the exclusionary conditions specified in the script. The curators have been contacted to verify whether the exclusions in sessions and files is as they intended for it or if its the case that the script is outdated. (Still awaiting reply)
    
 The subset of rows/files that were excluded by the python script have been stored in `aws_links_excluded_subset.csv` on 
 
+## CHANGES
+
+- **2024-02-28 :** Within `/data/DSST/Enhanced-NKI-RS`, created a new directory `2020_05_27_download` that now contains only the files that've changed in the latest version of the dataset that was downloaded on 2023-11-07. We've preserved only the changed files for the sake of reproducibility of analyses that used the older version. The recently downloaded data are in `2023_11_07_download` directory.
 
 ## Helpful links
 1. Enhanced NKI RS website: http://fcon_1000.projects.nitrc.org/indi/enhanced/index.html
