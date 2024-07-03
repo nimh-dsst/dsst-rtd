@@ -19,10 +19,10 @@ This release includes data collected between 2020-06-03 (cut-off date for v1.0.0
   5. Discontinued the Perceived Health rating survey.
   6. Added Brief Trauma Questionnaire (BTQ) and Big Five personality survey to online screening questionnaires.
   7. MRI:
-    - Replaced ADNI-3 resting state sequence with a multi-echo sequence with higher spatial resolution.
-    - Replaced field map scans with a shorter reversed-blipped EPI scan.
-  8. MEG:
-    - Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
+     * Replaced ADNI-3 resting state sequence with a multi-echo sequence with higher spatial resolution.
+     * Replaced field map scans with a shorter reversed-blipped EPI scan.
+  9. MEG:
+     * Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
 
 See the [CHANGES](./CHANGES) file for complete version-wise changelog.
 
