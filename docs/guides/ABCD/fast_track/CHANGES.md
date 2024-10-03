@@ -4,9 +4,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.3] - 2024-02-27
+## [1.2.0] - 2024-10-21
+
+### Added
+
+- Provided comprehensive lists of changes in the `code/v1.2.0/` subdirectory for this release including the lists of renamed files, added files, conversion log files, and scripts used to put data in place.
+- Added in 2,207 new sessions (3 baseline, 203 2-year follow-up, 278 4-year follow-up, and 1,723 6-year follow-up). These were converted using a new DSST converter, [nimh-dsst/abcd-fasttrack2bids](https://github.com/nimh-dsst/abcd-fasttrack2bids). The full list of new sessions can be found in `code/v1.2.0/new_sessions.tsv`.
 
 ### Changed
+
+- Replaced all `dwi/` subfolders with those from the new DSST converter to ensure they are complete, correct, and consistent.
+- Removed all `IntendedFor` fields from all `fmap` `acq-dwi` JSON sidecar files.
+- Removed all `fmap` sidecar `IntendedFor` fields which were empty lists.
+- Updated `participants.tsv`, `scans.tsv`, `dataset_description.json`, `CHANGES.md`, and `README.md` with the latest.
+
+### Fixed
+
+- Found and corrected one uncompressed NIfTI file (`*.nii`) to a compressed NIfTI file (`*.nii.gz`). The uncompressed filename can be found in `code/v1.2.0/uncompressed_nifti.tsv`.
+- Found and corrected 19 corrupt NIfTI files to valid NIfTI files. The full list of corrupt files can be found in `code/v1.2.0/corrupt_niftis.tsv`.
+- Recovered all missing runs for data already on our filesystem to complete our already-converted fast track sessions through April 2024.
+- Renamed runs that were out of order in some sessions. An inventory of renamed files can be found in `code/v1.2.0/renamed.tsv`.
+- The `participants.tsv` now only represents subjects in the `rawdata/` subfolder.
+
+## [1.1.3] - 2024-02-27
+
+### Fixed
 
 - Corrected 1,848 MRI sessions with incorrect `task-rest` run orders. The original incorrect orders prior to this fix can be seen in `code/fast_track_run_orders_2024-02-21.json`. The corrected orders can be seen in `code/fast_track_run_orders_2024-02-27.json`. The diagnostic code and re-ordering code can be found at `code/diagnose_run_orders.py` and `code/reorder_diagnosed_runs.py`, respectively.
 
