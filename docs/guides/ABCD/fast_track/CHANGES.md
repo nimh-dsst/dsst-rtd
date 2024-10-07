@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 
-- Provided comprehensive lists of changes in the `code/v1.2.0/` subdirectory for this release including the lists of renamed files, added files, conversion log files, and scripts used to put data in place.
+- Provided comprehensive lists of changes in the `code/v1.2.0/` subdirectory for this release including the lists of renamed files, added files, conversion log files, applied BIDS correction logs, and scripts used to put data in place.
 - Added in 2,207 new sessions (3 baseline, 203 2-year follow-up, 278 4-year follow-up, and 1,723 6-year follow-up). These were converted from DICOM data using a new DSST converter, [nimh-dsst/abcd-fasttrack2bids](https://github.com/nimh-dsst/abcd-fasttrack2bids). The full list of new sessions can be found in `code/v1.2.0/new_sessions.tsv`.
 
 ### Changed
