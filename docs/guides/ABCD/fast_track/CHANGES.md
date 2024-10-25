@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 
 - Provided comprehensive lists of changes in the `code/v1.2.0/` subdirectory for this release including the lists of renamed files, added files, and scripts used to put data in place.
-- Added in 2,207 new sessions (3 baseline, 203 2-year follow-up, 278 4-year follow-up, and 1,723 6-year follow-up). These were converted from DICOM data using a new DSST converter, [nimh-dsst/abcd-fasttrack2bids](https://github.com/nimh-dsst/abcd-fasttrack2bids). The full list of new sessions can be found in `code/v1.2.0/new_sessions.tsv`.
+- Added in 2,207 new sessions (3 baseline, 203 2-year follow-up, 278 4-year follow-up, and 1,723 6-year follow-up). These were converted from DICOM data using a new DSST converter, [nimh-dsst/abcd-fasttrack2bids](https://github.com/nimh-dsst/abcd-fasttrack2bids). The full list of new sessions can be found in `code/v1.2.0/new_sessions.csv`.
 
 ### Changed
 
@@ -19,10 +19,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Fixed
 
-- Found and corrected one uncompressed NIfTI file (`*.nii`) to a compressed NIfTI file (`*.nii.gz`). The uncompressed filename can be found in `code/v1.2.0/uncompressed_nifti.tsv`.
-- Found and corrected 19 corrupt NIfTI files to valid NIfTI files. The full list of corrupt files can be found in `code/v1.2.0/corrupt_niftis.tsv`.
+- Found and corrected one uncompressed NIfTI file (`*.nii`) to a compressed NIfTI file (`*.nii.gz`). The uncompressed filename can be found in `code/v1.2.0/steps/step01.sh`.
+- Found and corrected 19 corrupt NIfTI files to valid NIfTI files. The full list of corrupt files can be found in `code/v1.2.0/steps/step01.sh`.
 - Recovered as many missing runs for data already on our filesystem as possible for our already-converted fast track sessions through April 2024.
-- Renamed any runs that were out of order in some sessions. An inventory of renamed files can be found in `code/v1.2.0/renamed.tsv`.
+- Renamed any runs that were out of order in some sessions. An inventory of renamed files can be found in `code/v1.2.0/all_bids_renames.tsv`.
 - The `sessions.tsv` now only represents subjects in the `rawdata/` subfolder where it previously contained information from MRI visits as well as non-MRI visits from the annual release's tabulated data.
 
 ## [1.1.3] - 2024-02-27
