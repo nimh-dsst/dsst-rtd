@@ -33,8 +33,8 @@ You can find a summarized version of the QC ratings in our aggregated file `scan
 1. 139 `3YearFollowUpYArm1` sessions are still undergoing conversion. They will be included after they are successfully converted to BIDS. They include a few new data types like HERMES, QSM, and SWI.
 1. There is a very small sample of as-yet-unconverted series that need to be checked individually before inclusion for accuracy, due to DAIRC `abcd_fastqc01.txt` file-naming issues.
 1. There are 10 sessions whose DWI data are missing due to conversion problems.
-1. There are 7 new sessions missing due to all of their series having conversion problems.
+1. There are 7 new sessions missing due to their series having conversion problems.
 
 ## Field map (`fmap`) `IntendedFor` fields
 
-All `IntendedFor` fields in the `acq-dwi` JSON sidecar files have been removed due to no current recommendations on the best field map to use in all cases. The `IntendedFor` fields in the `acq-func` JSON sidecar files are currently assigned by using the DCAN Labs' eta-squared method of selecting the best spin-echo field map pair among all spin-echo field map pairs in a session to be used to distortion-correct all fMRI runs within that session.
+The `IntendedFor` fields in the `acq-func` JSON sidecar files are currently assigned by using the DCAN Labs' eta-squared method of selecting the best spin-echo field map pair among all spin-echo field map pairs in a session to be used to distortion-correct all fMRI runs within that session.
