@@ -1,12 +1,22 @@
 # The National Institute of Mental Health (NIMH) Research Volunteer (RV) Data Set
 
-A comprehensive dataset characterizing healthy research volunteers in terms of clinical assessments, mood-related psychometrics, cognitive function neuropsychological tests, structural and functional magnetic resonance imaging (MRI), along with diffusion tensor imaging (DTI), and a comprehensive magnetoencephalography battery (MEG).
+A comprehensive dataset characterizing healthy research volunteers in terms of clinical assessments, mood-related psychometrics, cognitive function neuropsychological tests, structural and functional magnetic resonance imaging (MRI), along with diffusion tensor imaging (DTI), arterial spin labeling (ASL), and a comprehensive magnetoencephalography battery (MEG).
 
 In addition, blood samples are currently banked for future genetic analysis.  All data collected in this protocol are broadly shared in the OpenNeuro repository, in the Brain Imaging Data Structure (BIDS) format.  In addition, task paradigms and basic pre-processing scripts are shared on GitHub.  This dataset is unprecedented in its depth of characterization of a healthy population and will allow a wide array of investigations into normal cognition and mood regulation.
 
 This dataset is licensed under the [Creative Commons Zero (CC0) v1.0 License](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ## Release Notes
+
+### Release v2.1.0
+
+This release corrects all the shared ASL data. It contains all available ASL scans (n=237) for MRI visits. While most all contain 3 volumes (`m0scan`, `deltam`, and `cbf`) as notated in the top-level aslcontext.tsv file, there are 6 containing only 2 volumes (`m0scan` and `deltam`), and 1 containing only 1 volume (`cbf`). These 7 "outliers" have a `sub-ON*_ses-01_aslcontext.tsv` file inside their `perf/` directories to reflect their differences.
+
+There were three fields in the ASL sidecar JSONs whose values were not found and so were hard-coded for each scan to satisfy the BIDS validator:
+
+1. `"RepetitionTimePreparation"` was hard-coded to `4.888` (to follow the `"RepetitionTime"`).
+2. `"TotalAcquiredPairs"` was hard-coded to `1`.
+3. `"BackgroundSuppression"` was hard-coded to `false`.
 
 ### Release v2.0.0
 
@@ -25,7 +35,6 @@ This release includes data collected between 2020-06-03 (cut-off date for v1.0.0
      * Some participants have 6-minute empty room data instead of the shorter duration empty room acquisition.
 
 See the [CHANGES](./CHANGES) file for complete version-wise changelog.
-
 
 ## Participant Eligibility
 
