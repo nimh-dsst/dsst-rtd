@@ -16,7 +16,7 @@ There were three fields in the ASL BIDS sidecar JSONs whose values were not as e
 
 1. `"RepetitionTimePreparation"` was hard-coded to `4.888` to follow the `"RepetitionTime"`.
 2. `"TotalAcquiredPairs"` was hard-coded to `3` to folow the "NEX" (number of excitations) parameter from the ASL protocol PDF.
-3. `"BackgroundSuppression"` was hard-coded to `false` for its absence.
+3. `"BackgroundSuppression"` was hard-coded to `true` for its presence.
 
 ### Release v2.0.0
 
