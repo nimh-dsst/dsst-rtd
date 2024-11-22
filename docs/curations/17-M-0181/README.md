@@ -10,13 +10,13 @@ This dataset is licensed under the [Creative Commons Zero (CC0) v1.0 License](ht
 
 ### Release v2.1.0
 
-This release corrects all the shared ASL data. It contains all available ASL scans (n=237) for MRI visits. While most all contain 3 volumes (`m0scan`, `deltam`, and `cbf`) as notated in the top-level aslcontext.tsv file, there are 6 containing only 2 volumes (`m0scan` and `deltam`), and 1 containing only 1 volume (`cbf`). These 7 "outliers" have a `sub-ON*_ses-01_aslcontext.tsv` file inside their `perf/` directories to reflect their differences.
+This release corrects all the shared ASL data. It contains all available ASL scans (n=237) for MRI visits. While most all contain 3 volumes (`m0scan`, `deltam`, and `cbf`) as notated in the top-level `aslcontext.tsv` file, there are 6 containing only 2 volumes (`m0scan` and `deltam`), and 1 containing only 1 volume (`cbf`). These 7 "outliers" have a `sub-ON*_ses-01_aslcontext.tsv` file inside their `perf/` directories to reflect their differences.
 
-There were three fields in the ASL sidecar JSONs whose values were not found and so were hard-coded for each scan to satisfy the BIDS validator:
+There were three fields in the ASL BIDS sidecar JSONs whose values were not as easily found during conversion and so were hard-coded for each scan to satisfy the BIDS validator:
 
-1. `"RepetitionTimePreparation"` was hard-coded to `4.888` (to follow the `"RepetitionTime"`).
-2. `"TotalAcquiredPairs"` was hard-coded to `1`.
-3. `"BackgroundSuppression"` was hard-coded to `false`.
+1. `"RepetitionTimePreparation"` was hard-coded to `4.888` to follow the `"RepetitionTime"`.
+2. `"TotalAcquiredPairs"` was hard-coded to `3` to folow the "NEX" (number of excitations) parameter from the ASL protocol PDF.
+3. `"BackgroundSuppression"` was hard-coded to `false` for its absence.
 
 ### Release v2.0.0
 
