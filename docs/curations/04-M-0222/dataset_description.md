@@ -3,7 +3,7 @@
 ```json
 {
     "Name": "NIMH Ketamine Mechanism of Action Study",
-    "BIDSVersion": "1.9.0",
+    "BIDSVersion": "1.10.0",
     "HEDVersion": "8.2.0",
     "DatasetType": "raw",
     "License": "CC0",
