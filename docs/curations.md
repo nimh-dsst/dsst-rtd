@@ -3,8 +3,7 @@
 | Study | Research Group | Year | DSST Files |
 | --- | --- | --- | --- |
 | [Whole-brain, time-locked activation with simple tasks revealed using massive averaging and model-free analysis](https://doi.org/10.15154/1464517) | Bandettini  | 2018 |  |
-| [Task Dependence, Tissue Specificity, and Spatial Distribution of Widespread Activations in Large Single-Subject Functional MRI Datasets at 7T](https://doi.org/10.15154/1464520) | Bandettini  | 2018 | 
- |
+| [Task Dependence, Tissue Specificity, and Spatial Distribution of Widespread Activations in Large Single-Subject Functional MRI Datasets at 7T](https://doi.org/10.15154/1464520) | Bandettini  | 2018 |  |
 | [NIMH NHGRI data-sharing project](https://doi.org/10.15154/1463004) | Shaw | 2018 |  |
 | [Markers of Autism Spectrum Disorders in At-Risk Toddlers: A Pilot Study](https://doi.org/10.15154/1464602) | Thurm | 2018 |  |
 | [Multi-echo Cambridge](https://doi.org/10.18112/openneuro.ds000258.v1.0.1) | Martin | 2018 |  |
@@ -25,3 +24,4 @@
 | [Associations between neighborhood resources and youth’s response to reward omission in a task modeling negatively biased environments](https://doi.org/10.18112/openneuro.ds004847.v1.0.0 ) | Leibenluft | 2023 | [Modality agnostics](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/curations/COI_AP) |
 | [CogQuad](https://doi.org/10.18112/openneuro.ds004724.v1.0.0) | Pine | 2023 |  |
 | [Ecological Momentary Assessment of Youth Anxiety: Evaluation of Psychometrics for use in Clinical Trials dataset](https://osf.io/av5r4/) | Pine | 2023 |  |
+| [NIMH Ketamine Mechanism of Action Study](https://openneuro.org/datasets/ds005917) | Zarate | 2025 | [README](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/curations/04-M-0222) |
