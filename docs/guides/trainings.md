@@ -4,6 +4,12 @@
 
 ## General
 
+As of June 2025, this is Eric's new #1 recommended content to learn all of the typical topics in a self-guided way.
+
+- [Scientific Computing For Cognitive Neuroscience: Tutorials and Practical Applications](https://mrgreene09.github.io/Scientific_Computing_Cognitive_Neuroscience_Textbook/)
+
+Below is everything else.
+
 - [Markdown](http://laderast.github.io/magic-of-markdown)
 - Learn the command line (for Linux and Mac OS X)
     - [This Book, just Chapter 1](http://conqueringthecommandline.com/book)
