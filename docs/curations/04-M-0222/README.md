@@ -27,6 +27,9 @@ Scans are normally performed at baseline (b0) (about 2 days before) and then 2-3
 
 - Functional runs per session:
   - Resting state: 1 run, 8 min, eyes closed, physio was collected during this run only (for most of the data)
+  - [Dot probe task](https://www.sciencedirect.com/science/article/pii/S2213158218302183): 2 runs, 8.75 min each
+  - [Emotional faces evaluation task](https://www.sciencedirect.com/science/article/pii/S0165032720328512): 2 runs, 4.8 min each
+  - [N-back task](): 1-3 runs, ### min
 
 - Magnetic Resonance Spectroscopy (MRS)
   - nominally all sessions for participants after sub-MOA115/sub-MOA306
@@ -36,6 +39,7 @@ Scans are normally performed at baseline (b0) (about 2 days before) and then 2-3
 ### Exceptions
 
 1. The anatomical data of `sub-MOA133/ses-b0` came from an excluded scan two weeks earlier in order to have anatomical data to go along with the functional data.
+1. Not every functional run has an events file of timings of stimuli presented during the run.
 
 ## Tabular Phenotypic Data Description
 
