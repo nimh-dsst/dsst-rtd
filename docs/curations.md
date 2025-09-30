@@ -25,3 +25,4 @@
 | [CogQuad](https://doi.org/10.18112/openneuro.ds004724.v1.0.0) | Pine | 2023 |  |
 | [Ecological Momentary Assessment of Youth Anxiety: Evaluation of Psychometrics for use in Clinical Trials dataset](https://osf.io/av5r4/) | Pine | 2023 |  |
 | [NIMH Ketamine Mechanism of Action Study](https://openneuro.org/datasets/ds005917) | Zarate | 2025 | [Modality agnostics](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/curations/04-M-0222) |
+| [NIMH Gamified Attention Bias Modification Training to Augment CBT for Youth Anxiety Disorders](https://openneuro.org/datasets/ds006577) | Pine | 2025 | [Modality agnostics](https://github.com/nimh-dsst/dsst-rtd/tree/main/docs/curations/01-M-0192) |
