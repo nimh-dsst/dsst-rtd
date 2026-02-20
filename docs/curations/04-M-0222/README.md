@@ -1,45 +1,46 @@
 # NIMH Ketamine Mechanism of Action Study
 
-The study was completed at the National Institute of Mental Health (NIMH) Intramural Research Program (IRP)  (ID: 04-M-0222) within the within the Experimental Therapeutics and Pathophysiology Branch.  It is a double-blind placebo cross-over trial of a single infusion of ketamine or saline placebo which included both patients and healthy volunteers. Patients with major depressive disorder (MDD) were medication-free for at least 2 weeks prior to the start of the study. Recruitment for the bipolar (BP) group was ended early on, but is included here for completeness. Some measurements (tasks/scans/scales) were added part-way into the study and have fewer completed measurements.
+The study was completed at the National Institute of Mental Health (NIMH) Intramural Research Program (IRP)  (ID: 04-M-0222) within the Experimental Therapeutics and Pathophysiology Branch.  It is a double-blind placebo cross-over trial of a single infusion of ketamine or saline placebo which included both patients and healthy volunteers. Patients with major depressive disorder (MDD) were medication-free for at least 2 weeks prior to the start of the study. Recruitment for the bipolar (BP) group was ended early on, but is included here for completeness. Some measurements (tasks/scans/scales) were added part-way into the study and have fewer completed measurements.
 
-Nominally, there are five Magnetic Resonance Imaging (MRI) scans per subject at both 3 Tesla with the details listed below. Note that not all planned scans were completed: some participants dropped out of the trial, some people did not want to have an MRI (infrequent), and sometimes there were technical issues.
+Nominally, there are five Magnetic Resonance Imaging (MRI) scans per subject at 3 Tesla with the details listed below. Note that not all planned scans were completed: some participants dropped out of the trial, some people did not want to have an MRI (infrequent), and sometimes there were technical issues.
 
 ## MRI Data Description
 
-Scans are normally performed at baseline (b0) (about 2 days before) and then 2-3 (d2/p2) and 10-11 (d10/p10) days after blinded infusion on a 3T GE Signa HDx with an 8 channel head coil unless otherwise specified.
+Scans are normally performed at baseline (`ses-b0`) (about 2 days before) and then 2-3 (`ses-d2`/`ses-p2`) and 10-11 (`ses-d10`/`ses-p10`) days after blinded infusion on a 3 Tesla GE Signa HDx scanner with an 8-channel head coil unless otherwise specified.
 
 - Subjects: total N = 58
   - n, Group 1 (MDD) = 33
   - n, Group 2 (BP) = 3
   - n, Group 3 (HC) = 22
 - Sessions per subject: total = 5
-  - Baseline (b0)
-  - Post-infusion 1 (ketamine: d2 or placebo: p2)
+  - Baseline (`ses-b0`)
+  - Post-infusion 1 (ketamine: `ses-d2` or placebo: `ses-p2`)
   - Interim 1 (ketamine: d10, or placebo: p10)
-  - Post-infusion 2 (opposite, ketamine: d2 or placebo: p2)
-  - Interim 2 (ketamine: d10, or placebo: p10)
+  - Post-infusion 2 (opposite, ketamine: `ses-d2` or placebo: `ses-p2`)
+  - Interim 2 (ketamine: `ses-d10`, or placebo: `ses-p10`)
 - Session identifiers are documented in the `phenotype/phenotype.json` file
 - Anatomical runs per session:
   - T1-weighted: 1 run (often 1 or 2 additional T1-weighted runs in the baseline session)
   - T2-weighted: 3 runs (baseline session only)
 - Diffusion-Weighted Imaging (DWI): 2 runs (baseline session only)
-  - 30 directions, bval: 1100 s/mm^2, acquired in two groups (g1/g2)
+  - 30 directions, bval: 1100 s/mm^2, acquired "multi-part" in two groups (g1/g2)
 
 - Functional runs per session:
-  - Resting state: 1 run, 8 min, eyes closed, physio was collected during this run only (for most of the data)
+  - Resting state: 1 run, 8 min, eyes closed, cardiac and respiratory physiological data was collected during this run only (for most of the data)
   - [Dot probe task](https://www.sciencedirect.com/science/article/pii/S2213158218302183): 2 runs, 8.75 min each
   - [Emotional faces evaluation task](https://www.sciencedirect.com/science/article/pii/S0165032720328512): 2 runs, 4.8 min each
-  - [N-back task](): 1-3 runs, ### min
+  - [N-back task](https://doi.org/10.1007/s00213-006-0334-2): 1-3 runs, 4-6 min each
 
 - Magnetic Resonance Spectroscopy (MRS)
-  - nominally all sessions for participants after sub-MOA115/sub-MOA306
-  - 7T Siemens, 32ch head coil
-  - 2cm isotropic voxel centered on the perigenual ACC, TE-optimized J-suppression PRESS sequence at 7T optimized to measure glutamate
+  - nominally all sessions for participants after `sub-MOA115`/`sub-MOA306`
+  - 7 Tesla Siemens, 32-channel head coil
+  - 2 cm isotropic voxel centered on the perigenual ACC, TE-optimized J-suppression PRESS sequence at 7 Tesla optimized to measure glutamate
 
 ### Exceptions
 
 1. The anatomical data of `sub-MOA133/ses-b0` came from an excluded scan two weeks earlier in order to have anatomical data to go along with the functional data.
 1. Not every functional run has an events file of timings of stimuli presented during the run.
+1. Not every resting state scan has physiological data.
 
 ## Tabular Phenotypic Data Description
 
@@ -47,7 +48,7 @@ The Montgomery-Asberg Depression Rating Scale (MADRS), the abbreviated Hamilton 
 
 ## Inclusion/Exclusion Criteria
 
-Please see https://clinicaltrials.gov/study/NCT00088699 for a detailed list, also included below.
+Please see [https://clinicaltrials.gov/study/NCT00088699](https://clinicaltrials.gov/study/NCT00088699) for a detailed list, also included below.
 
 ### INCLUSION CRITERIA
 
@@ -100,3 +101,7 @@ Please see https://clinicaltrials.gov/study/NCT00088699 for a detailed list, als
   - Presence of psychiatric disorders in first-degree relatives.
   - Female subjects who are either pregnant or nursing.
   - Current NIMH employee/staff or their immediate family member.
+
+## Questions or feedback
+
+For dataset curation questions, feedback, or requests please email the NIMH Data Science & Sharing Team at [nimhdsst@mail.nih.gov](mailto:nimhdsst@mail.nih.gov) or comment here. For questions about the study design or any other available data, please email Jen Evans at [jennifer.evans@nih.gov](mailto:jennifer.evans@nih.gov).
