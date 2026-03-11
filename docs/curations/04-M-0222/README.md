@@ -26,13 +26,13 @@ Scans are normally performed at baseline (`ses-b0`) (about 2 days before) and th
   - 30 directions, bval: 1100 s/mm^2, acquired "multi-part" in two groups (g1/g2)
 
 - Functional runs per session:
-  - Resting state: 1 run, 8 min, eyes closed, cardiac and respiratory physiological data was collected during this run only (for most of the data)
+  - Resting state: 1 run, 8 min, eyes closed, cardiac and respiratory physiological data was collected during this run only (for 214 of 236 sessions)
   - [Dot probe task](https://www.sciencedirect.com/science/article/pii/S2213158218302183): 2 runs, 8.75 min each
   - [Emotional faces evaluation task](https://www.sciencedirect.com/science/article/pii/S0165032720328512): 2 runs, 4.8 min each
   - [N-back task](https://doi.org/10.1007/s00213-006-0334-2): 1-3 runs, 4-6 min each
 
 - Magnetic Resonance Spectroscopy (MRS)
-  - nominally all sessions for participants after `sub-MOA115`/`sub-MOA306`
+  - Nominally all sessions for participants after `sub-MOA115`/`sub-MOA306`
   - 7 Tesla Siemens, 32-channel head coil
   - 2 cm isotropic voxel centered on the perigenual ACC, TE-optimized J-suppression PRESS sequence at 7 Tesla optimized to measure glutamate
 
