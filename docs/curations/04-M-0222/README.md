@@ -26,7 +26,7 @@ Scans are normally performed at baseline (`ses-b0`) (about 2 days before) and th
   - 30 directions, bval: 1100 s/mm^2, acquired "multi-part" in two groups (g1/g2)
 
 - Functional runs per session:
-  - Resting state: 1 run, 8 min, eyes closed, cardiac and respiratory physiological data was collected during this run only (for 214 of 236 sessions)
+  - Resting state: 1 run, 8 min, eyes closed, cardiac and respiratory physiological data was collected during this run only
   - [Dot probe task](https://www.sciencedirect.com/science/article/pii/S2213158218302183): 2 runs, 8.75 min each
   - [Emotional faces evaluation task](https://www.sciencedirect.com/science/article/pii/S0165032720328512): 2 runs, 4.8 min each
   - [N-back task](https://doi.org/10.1007/s00213-006-0334-2): 1-3 runs, 4-6 min each
@@ -40,7 +40,8 @@ Scans are normally performed at baseline (`ses-b0`) (about 2 days before) and th
 
 1. The anatomical data of `sub-MOA133/ses-b0` came from an excluded scan two weeks earlier in order to have anatomical data to go along with the functional data.
 1. Not every functional run has an events file of timings of stimuli presented during the run.
-1. Not every resting state scan has physiological data.
+1. Not every session has a resting state scan. 5 sessions are missing a resting state scan.
+1. Not every resting state scan has physiological data. 22 sessions are missing physiological data.
 
 ## Tabular Phenotypic Data Description
 
