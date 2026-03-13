@@ -10,14 +10,14 @@ This dataset comprises of 18 healthy volunteers performing one run of a continuo
 
 ### Task Paradigm
 
-In this paradigm, participants performed randomly interleaved blocks of the following tasks:
+In this paradigm, participants performed pseudo-randomly interleaved blocks of the following tasks:
 
 - Math: evaluate a short arithmetic problem.
 - Memory: 2-back task with shapes.
-- Video: watch a video of fish and press a button when an 'x' appears on a fish
+- Video: watch a video of a fish tank and press a button when an 'x' appears on a clown fish
 - Rest: passively stare at a fixation cross
 
-Each task block lasted 3 minutes (180 seconds), preceded by 12 seconds of instructions. Task blocks were presented twice in a random order (order consistent across participants).
+Each task block lasted 3 minutes (180 seconds), preceded by 12 seconds of instructions. Task blocks were presented twice in a random order such that they did not perform the same block twice in a row (order consistent across participants).
 
 ### Scanning Parameters
 
