@@ -17,7 +17,7 @@ In this paradigm, participants performed pseudo-randomly interleaved blocks of t
 - Video: watch a video of a fish tank and press a button when an 'x' appears on a clown fish
 - Rest: passively stare at a fixation cross
 
-Each task block lasted 3 minutes (180 seconds), preceded by 12 seconds of instructions. Task blocks were presented twice in a random order such that they did not perform the same block twice in a row (order consistent across participants).
+Each task block lasted 3 minutes (180 seconds), preceded by 12 seconds of instructions. The order of task blocks was randomized so that each task was always preceded and followed by a different task. This pseudo-random order of the task blocks was consistent across participants. 
 
 ### Scanning Parameters
 
