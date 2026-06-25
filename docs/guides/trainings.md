@@ -26,6 +26,9 @@ Below is everything else.
 - fMRI (functional magnetic resonance imaging)
     - [A nice intro](http://web1.sph.emory.edu/users/hwu30/teaching/introBDA/BIOS516_lecture4_Fall15.pdf )
     - [Coursera](https://www.coursera.org/learn/functional-mri)
+- Machine Learning
+    - [An entire open course](https://mlcourse.ai/)
+    - [A fantastic free book](https://www.statlearning.com/)
 
 ## Programming
 

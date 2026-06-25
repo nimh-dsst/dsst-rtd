@@ -1,0 +1,28 @@
+# NIMH Data Science and Sharing Team (DSST)
+
+> Documentation for the Data Science and Sharing Team (DSST) at the National Institute of Mental Health (NIMH). The NIMH DSST supports neuroscience research through data management, reproducible workflows, open science practices, and scientific computing resources.
+
+## About DSST
+
+- [Welcome page](https://dsst.readthedocs.io/en/latest/): A quick explanation of what the DSST and this site are for.
+- [About DSST](https://dsst.readthedocs.io/en/latest/about/): A redirect to an overview of the team's mission, members, and focus areas including data sharing, reproducibility, and open science.
+
+## DSST-Curated Datasets
+
+- [Internally curated datasets](https://dsst.readthedocs.io/en/latest/curations/): Curated from inside the NIMH IRP to be shared out to public repositories.
+- [Externally downloaded datasets](https://dsst.readthedocs.io/en/latest/public/): A redirect to datasets the DSST has downloaded externally and hosted internmally to NIMH.
+
+## Tools & References
+
+- [DSST Tools](https://dsst.readthedocs.io/en/latest/tools/): A set of DSST-developed publicly available tools.
+- [DSST References](https://dsst.readthedocs.io/en/latest/references/): Some lists of Datasets and publications supported by the DSST.
+- [DSST Lunch & Learn](https://dsst.readthedocs.io/en/latest/lunch-and-learn/): A historical record of past Lunch & Learn topics and events.
+
+## Guides & How-Tos
+
+- [ABCD Study data](https://dsst.readthedocs.io/en/latest/guides/abcd/): A short guide to the ABCD Study data that has been curated locally for NIMH by the DSST.
+- [DataLad New User FAQ](https://dsst.readthedocs.io/en/latest/guides/datalad/faq/): A list of common questions for which we have found the answers already and wanted to share for new DataLad users.
+- [NKI Rockland Sample Guide](https://dsst.readthedocs.io/en/latest/guides/downloads/enhanced-nki/): How the Enhanced NKI Sample data was downloaded and curated.
+- [GitHub Ownership Transfer](https://dsst.readthedocs.io/en/latest/guides/github/transfer/): A quick guide on how to transfer ownership of a GitHub repository.
+- [Downloading NDA data packages with nda-tools](https://dsst.readthedocs.io/en/latest/guides/nda/downloadcmd/): This documentation filters out information needed only to download data packages using their command line utility.
+- [Self-Guided Trainings](https://dsst.readthedocs.io/en/latest/guides/trainings/): Recommended self-guided trainings that have been vetted by the DSST.

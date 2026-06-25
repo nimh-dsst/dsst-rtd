@@ -1,6 +1,6 @@
 # Lunch and Learn
 
-Summaries of the information discussions and formal presentations that occur during DSST's Lunch and Learns. Every Tuesday at 12 PM Eastern Time.
+Summaries of the information discussions and formal presentations that occur during DSST's Lunch and Learns. Most Tuesdays at 12 PM Eastern Time.
 
 ## Sign Up for DSST-LUNCH-AND-LEARN Listserv
 
