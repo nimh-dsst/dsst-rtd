@@ -24,11 +24,13 @@ Below is everything else.
 ## Science
 
 - fMRI (functional magnetic resonance imaging)
-    - [A nice intro](http://web1.sph.emory.edu/users/hwu30/teaching/introBDA/BIOS516_lecture4_Fall15.pdf )
+    - [A nice intro](https://github.com/haowulab/haowulab.github.io/blob/master/teaching/introBDA/slides-Fall15/BIOS516_lecture4_Fall15.pdf)
     - [Coursera](https://www.coursera.org/learn/functional-mri)
 - Machine Learning
     - [An entire open course](https://mlcourse.ai/)
     - [A fantastic free book](https://www.statlearning.com/)
+- Statistics
+    - [Probability distributions and how they are related](https://torwager.github.io/probability_distributions/)
 
 ## Programming
 
